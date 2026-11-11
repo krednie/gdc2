@@ -1,0 +1,292 @@
+{
+  "records": [
+    {
+      "arm": "generic",
+      "group": "faa",
+      "request_sha256": "fa7acd8f2291bc8183dda3203a0598038ab60e36ec187e681a6415e1d8981ab9",
+      "content": "{\"predictions\":[{\"id\":\"F2\",\"supported\":true,\"reason\":\"Evidence says return was conditional on successful inspections and gives no return date.\"},{\"id\":\"F4\",\"supported\":false,\"reason\":\"Evidence states the FAA, not Boeing, approved the process.\"},{\"id\":\"F3\",\"supported\":false,\"reason\":\"Evidence does not say all aircraft completed inspections or returned on Jan 24.\"},{\"id\":\"F1\",\"supported\":true,\"reason\":\"Evidence directly says the FAA approved the inspection process on Jan 24.\"}]}",
+      "finish_reason": "stop",
+      "model_returned": "openai/gpt-oss-120b",
+      "usage": {
+        "queue_time": 0.335318423,
+        "prompt_tokens": 369,
+        "prompt_time": 0.111895752,
+        "completion_tokens": 300,
+        "completion_time": 0.628271968,
+        "total_tokens": 669,
+        "total_time": 0.74016772,
+        "completion_tokens_details": {
+          "reasoning_tokens": 182
+        }
+      },
+      "predictions": [
+        {
+          "id": "F2",
+          "supported": true,
+          "reason": "Evidence says return was conditional on successful inspections and gives no return date."
+        },
+        {
+          "id": "F4",
+          "supported": false,
+          "reason": "Evidence states the FAA, not Boeing, approved the process."
+        },
+        {
+          "id": "F3",
+          "supported": false,
+          "reason": "Evidence does not say all aircraft completed inspections or returned on Jan 24."
+        },
+        {
+          "id": "F1",
+          "supported": true,
+          "reason": "Evidence directly says the FAA approved the inspection process on Jan 24."
+        }
+      ],
+      "status": "ok",
+      "elapsed_seconds": 1.204
+    },
+    {
+      "arm": "role_aware",
+      "group": "apple",
+      "request_sha256": "e2f3315d17b8b35bb3ffc8fbf30d7d47d8d35da0a2cdce847f2418ce75cf7dbd",
+      "content": "{\"predictions\":[{\"id\":\"A2\",\"supported\":true,\"reason\":\"Evidence states the U.S. availability was scheduled for February 2.\"},{\"id\":\"A4\",\"supported\":false,\"reason\":\"Evidence only reports the announcement, not that the launch actually occurred.\"},{\"id\":\"A3\",\"supported\":false,\"reason\":\"Evidence does not indicate the product was available on January 8.\"},{\"id\":\"A1\",\"supported\":true,\"reason\":\"Evidence confirms Apple announced the schedule on January 8.\"}]}",
+      "finish_reason": "stop",
+      "model_returned": "openai/gpt-oss-120b",
+      "usage": {
+        "queue_time": 0.412458805,
+        "prompt_tokens": 365,
+        "prompt_time": 0.105638327,
+        "completion_tokens": 296,
+        "completion_time": 0.62201643,
+        "total_tokens": 661,
+        "total_time": 0.727654757,
+        "completion_tokens_details": {
+          "reasoning_tokens": 182
+        }
+      },
+      "predictions": [
+        {
+          "id": "A2",
+          "supported": true,
+          "reason": "Evidence states the U.S. availability was scheduled for February 2."
+        },
+        {
+          "id": "A4",
+          "supported": false,
+          "reason": "Evidence only reports the announcement, not that the launch actually occurred."
+        },
+        {
+          "id": "A3",
+          "supported": false,
+          "reason": "Evidence does not indicate the product was available on January 8."
+        },
+        {
+          "id": "A1",
+          "supported": true,
+          "reason": "Evidence confirms Apple announced the schedule on January 8."
+        }
+      ],
+      "status": "ok",
+      "elapsed_seconds": 1.25
+    },
+    {
+      "arm": "role_aware",
+      "group": "faa",
+      "request_sha256": "a71c95f1ab683f07dea9ae5e5f0ed72983b9685082bc863934160f5402eb1b47",
+      "content": "{\"predictions\":[{\"id\":\"F2\",\"supported\":true,\"reason\":\"Evidence states return depends on successful inspections and gives no dates, matching claim.\"},{\"id\":\"F4\",\"supported\":false,\"reason\":\"Evidence attributes approval to the FAA, not Boeing.\"},{\"id\":\"F3\",\"supported\":false,\"reason\":\"Evidence does not state that all aircraft completed inspections or returned on that date.\"},{\"id\":\"F1\",\"supported\":true,\"reason\":\"Evidence explicitly says the FAA approved the inspection process on January 24.\"}]}",
+      "finish_reason": "stop",
+      "model_returned": "openai/gpt-oss-120b",
+      "usage": {
+        "queue_time": 0.43673869,
+        "prompt_tokens": 370,
+        "prompt_time": 0.113559112,
+        "completion_tokens": 297,
+        "completion_time": 0.631080152,
+        "total_tokens": 667,
+        "total_time": 0.744639264,
+        "completion_tokens_details": {
+          "reasoning_tokens": 180
+        }
+      },
+      "predictions": [
+        {
+          "id": "F2",
+          "supported": true,
+          "reason": "Evidence states return depends on successful inspections and gives no dates, matching claim."
+        },
+        {
+          "id": "F4",
+          "supported": false,
+          "reason": "Evidence attributes approval to the FAA, not Boeing."
+        },
+        {
+          "id": "F3",
+          "supported": false,
+          "reason": "Evidence does not state that all aircraft completed inspections or returned on that date."
+        },
+        {
+          "id": "F1",
+          "supported": true,
+          "reason": "Evidence explicitly says the FAA approved the inspection process on January 24."
+        }
+      ],
+      "status": "ok",
+      "elapsed_seconds": 1.296
+    },
+    {
+      "arm": "generic",
+      "group": "nasa",
+      "request_sha256": "dc23b922c1aff684acdd43a8269145aa8ce4dd1c950af139c8ce140a357366cc",
+      "content": "{\"predictions\":[{\"id\":\"N2\",\"supported\":true,\"reason\":\"Evidence states departure was expected in early September.\"},{\"id\":\"N4\",\"supported\":false,\"reason\":\"Evidence only says early September, not a specific September 1 date.\"},{\"id\":\"N3\",\"supported\":false,\"reason\":\"Evidence mentions announcement of return on August 24, not that the return occurred that day.\"},{\"id\":\"N1\",\"supported\":true,\"reason\":\"Evidence confirms NASA announced the decision on August 24.\"}]}",
+      "finish_reason": "stop",
+      "model_returned": "openai/gpt-oss-120b",
+      "usage": {
+        "queue_time": 0.369652812,
+        "prompt_tokens": 358,
+        "prompt_time": 0.018887304,
+        "completion_tokens": 342,
+        "completion_time": 0.710987103,
+        "total_tokens": 700,
+        "total_time": 0.729874407,
+        "completion_tokens_details": {
+          "reasoning_tokens": 227
+        }
+      },
+      "predictions": [
+        {
+          "id": "N2",
+          "supported": true,
+          "reason": "Evidence states departure was expected in early September."
+        },
+        {
+          "id": "N4",
+          "supported": false,
+          "reason": "Evidence only says early September, not a specific September 1 date."
+        },
+        {
+          "id": "N3",
+          "supported": false,
+          "reason": "Evidence mentions announcement of return on August 24, not that the return occurred that day."
+        },
+        {
+          "id": "N1",
+          "supported": true,
+          "reason": "Evidence confirms NASA announced the decision on August 24."
+        }
+      ],
+      "status": "ok",
+      "elapsed_seconds": 1.219
+    },
+    {
+      "arm": "generic",
+      "group": "apple",
+      "request_sha256": "516c26b4d9a426789ba7d4c522b6f221ca0a0ab68f29309725bbe6829cbece41",
+      "content": "{\"predictions\":[{\"id\":\"A2\",\"supported\":true,\"reason\":\"Evidence states U.S. availability was scheduled for February 2.\"},{\"id\":\"A4\",\"supported\":false,\"reason\":\"Evidence only mentions the announcement, not that the launch actually occurred.\"},{\"id\":\"A3\",\"supported\":false,\"reason\":\"No evidence about Vision Pro being in stores on January 8.\"},{\"id\":\"A1\",\"supported\":true,\"reason\":\"Evidence confirms Apple announced the schedule on January 8.\"}]}",
+      "finish_reason": "stop",
+      "model_returned": "openai/gpt-oss-120b",
+      "usage": {
+        "queue_time": 0.458983836,
+        "prompt_tokens": 364,
+        "prompt_time": 0.088767299,
+        "completion_tokens": 309,
+        "completion_time": 0.650408899,
+        "total_tokens": 673,
+        "total_time": 0.739176198,
+        "completion_tokens_details": {
+          "reasoning_tokens": 196
+        }
+      },
+      "predictions": [
+        {
+          "id": "A2",
+          "supported": true,
+          "reason": "Evidence states U.S. availability was scheduled for February 2."
+        },
+        {
+          "id": "A4",
+          "supported": false,
+          "reason": "Evidence only mentions the announcement, not that the launch actually occurred."
+        },
+        {
+          "id": "A3",
+          "supported": false,
+          "reason": "No evidence about Vision Pro being in stores on January 8."
+        },
+        {
+          "id": "A1",
+          "supported": true,
+          "reason": "Evidence confirms Apple announced the schedule on January 8."
+        }
+      ],
+      "status": "ok",
+      "elapsed_seconds": 1.313
+    },
+    {
+      "arm": "role_aware",
+      "group": "nasa",
+      "request_sha256": "69046e00c35c344d4b429be9c8b071ef37cd1b4a9602434c86931f0baac07337",
+      "content": "{\"predictions\":[{\"id\":\"N2\",\"supported\":true,\"reason\":\"Evidence states departure was expected in early September.\"},{\"id\":\"N4\",\"supported\":false,\"reason\":\"Evidence only mentions early September, not a specific September 1 date.\"},{\"id\":\"N3\",\"supported\":false,\"reason\":\"Evidence reports an announcement of return on August 24, not that the return occurred that day.\"},{\"id\":\"N1\",\"supported\":true,\"reason\":\"Evidence confirms NASA made the announcement on August 24.\"}]}",
+      "finish_reason": "stop",
+      "model_returned": "openai/gpt-oss-120b",
+      "usage": {
+        "queue_time": 0.375243883,
+        "prompt_tokens": 359,
+        "prompt_time": 0.017542103,
+        "completion_tokens": 317,
+        "completion_time": 0.670959577,
+        "total_tokens": 676,
+        "total_time": 0.68850168,
+        "completion_tokens_details": {
+          "reasoning_tokens": 201
+        }
+      },
+      "predictions": [
+        {
+          "id": "N2",
+          "supported": true,
+          "reason": "Evidence states departure was expected in early September."
+        },
+        {
+          "id": "N4",
+          "supported": false,
+          "reason": "Evidence only mentions early September, not a specific September 1 date."
+        },
+        {
+          "id": "N3",
+          "supported": false,
+          "reason": "Evidence reports an announcement of return on August 24, not that the return occurred that day."
+        },
+        {
+          "id": "N1",
+          "supported": true,
+          "reason": "Evidence confirms NASA made the announcement on August 24."
+        }
+      ],
+      "status": "ok",
+      "elapsed_seconds": 1.172
+    }
+  ],
+  "scores": {
+    "generic": {
+      "planned_cases": 12,
+      "scored_cases": 12,
+      "missing_cases": 0,
+      "tp": 6,
+      "fp": 0,
+      "fn": 0,
+      "tn": 6,
+      "correct_of_planned": 1.0,
+      "accuracy_on_scored": 1.0
+    },
+    "role_aware": {
+      "planned_cases": 12,
+      "scored_cases": 12,
+      "missing_cases": 0,
+      "tp": 6,
+      "fp": 0,
+      "fn": 0,
+      "tn": 6,
+      "correct_of_planned": 1.0,
+      "accuracy_on_scored": 1.0
+    }
+  }
+}

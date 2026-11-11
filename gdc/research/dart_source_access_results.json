@@ -1,0 +1,104 @@
+{
+  "case_id": "dart_development_01",
+  "kind": "access_and_marker_probe_not_model_evaluation",
+  "results": [
+    {
+      "id": "D01",
+      "requested_url": "https://www.nasa.gov/news-release/nasa-tv-to-air-dart-prelaunch-activities-launch/",
+      "retrieved_at_utc": "2026-11-09T17:12:30.204104+00:00",
+      "status": 200,
+      "resolved_url": "https://www.nasa.gov/news-release/nasa-tv-to-air-dart-prelaunch-activities-launch/",
+      "content_type": "text/html; charset=UTF-8",
+      "raw_bytes": 282172,
+      "raw_sha256": "32d72a5d44c0db7c120b086cac8f94c07a4c6d0348999c5042739c1257e1d675",
+      "normalized_visible_text_sha256": "136fa55d5659087f5bbdfc694b299dd844f24292887da1e9ba755fdd77fdb71e",
+      "metadata": {
+        "og:title": "NASA TV to Air DART Prelaunch Activities, Launch - NASA"
+      },
+      "marker_presence": {
+        "updated on Nov. 22": true,
+        "scheduled to launch no earlier than": true
+      },
+      "historical_snapshot": false
+    },
+    {
+      "id": "D02",
+      "requested_url": "https://www.nasa.gov/news-release/nasa-spacex-launch-dart-first-test-mission-to-defend-planet-earth/",
+      "retrieved_at_utc": "2026-11-09T17:12:30.205573+00:00",
+      "status": 200,
+      "resolved_url": "https://www.nasa.gov/news-release/nasa-spacex-launch-dart-first-test-mission-to-defend-planet-earth/",
+      "content_type": "text/html; charset=UTF-8",
+      "raw_bytes": 267557,
+      "raw_sha256": "ab72e35ce7076c42b04523cc377ff6a73329712a04a1bcb731c578017894c515",
+      "normalized_visible_text_sha256": "f10ed56aa85fd9e95cc199138b65b69bdb7380c7428bc98ab7e794ca600ddd38",
+      "metadata": {
+        "og:title": "NASA, SpaceX Launch DART: First Test Mission to Defend Planet Earth - NASA"
+      },
+      "marker_presence": {
+        "launched Wednesday at 1:21": true,
+        "2:17": true
+      },
+      "historical_snapshot": false
+    },
+    {
+      "id": "D03",
+      "requested_url": "https://www.nasa.gov/news-release/nasas-dart-mission-hits-asteroid-in-first-ever-planetary-defense-test/",
+      "retrieved_at_utc": "2026-11-09T17:12:31.606152+00:00",
+      "status": 200,
+      "resolved_url": "https://www.nasa.gov/news-release/nasas-dart-mission-hits-asteroid-in-first-ever-planetary-defense-test/",
+      "content_type": "text/html; charset=UTF-8",
+      "raw_bytes": 265110,
+      "raw_sha256": "69e1f705fab4eaeeb1f5cb009b4ef1309ced63cd06222398520a9a3e40ff907a",
+      "normalized_visible_text_sha256": "6ffa5e7efc3149da85ffb97b94cdc6b7637110dad8a1fc14eea69a2cca1f45bb",
+      "metadata": {
+        "og:title": "NASA\u2019s DART Mission Hits Asteroid in First-Ever Planetary Defense Test - NASA"
+      },
+      "marker_presence": {
+        "7:14 p.m. EDT": true,
+        "weeks": true
+      },
+      "historical_snapshot": false
+    },
+    {
+      "id": "D04",
+      "requested_url": "https://www.nasa.gov/news-release/nasa-confirms-dart-mission-impact-changed-asteroids-motion-in-space/",
+      "retrieved_at_utc": "2026-11-09T17:12:31.751693+00:00",
+      "status": 200,
+      "resolved_url": "https://www.nasa.gov/news-release/nasa-confirms-dart-mission-impact-changed-asteroids-motion-in-space/",
+      "content_type": "text/html; charset=UTF-8",
+      "raw_bytes": 275939,
+      "raw_sha256": "5ab913bf3c2649b0cb1be29564049b1e5a78ed68d85864b133b5a68110b2a042",
+      "normalized_visible_text_sha256": "0cd9e4f961cc2893dbd9807416a8963b8473356ab33d2b1ec57e9b2a7618b044",
+      "metadata": {
+        "og:title": "NASA Confirms DART Mission Impact Changed Asteroid\u2019s Motion in Space - NASA"
+      },
+      "marker_presence": {
+        "32 minutes": true,
+        "plus or minus 2 minutes": true
+      },
+      "historical_snapshot": false
+    },
+    {
+      "id": "D05",
+      "requested_url": "https://www.nasa.gov/missions/dart/nasa-study-asteroids-orbit-shape-changed-after-dart-impact/",
+      "retrieved_at_utc": "2026-11-09T17:12:31.978322+00:00",
+      "status": 200,
+      "resolved_url": "https://www.nasa.gov/missions/dart/nasa-study-asteroids-orbit-shape-changed-after-dart-impact/",
+      "content_type": "text/html; charset=UTF-8",
+      "raw_bytes": 306871,
+      "raw_sha256": "0324c455970a227e9096e9ab41865e7759081635af083a636c492caf46ae55f5",
+      "normalized_visible_text_sha256": "3a412114d2a03d23def78c0d2574bf245051e0f1e60db36334d7870c1dde04f5",
+      "metadata": {
+        "og:title": "NASA Study: Asteroid\u2019s Orbit, Shape Changed After DART Impact - NASA",
+        "article:published_time": "2024-03-19T10:23:51-04:00",
+        "article:modified_time": "2024-03-19T10:23:52-04:00"
+      },
+      "marker_presence": {
+        "32 minutes and 42 seconds": true,
+        "33 minutes and 15 seconds": true,
+        "Over the following weeks": true
+      },
+      "historical_snapshot": false
+    }
+  ]
+}

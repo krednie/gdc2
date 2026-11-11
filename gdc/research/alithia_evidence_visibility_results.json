@@ -1,0 +1,117 @@
+{
+  "kind": "controlled_formatter_probe_not_model_benchmark",
+  "source_file": "C:\\Users\\yashy\\OneDrive\\Documents\\code\\gdc2\\backend\\verifier.py",
+  "source_file_sha256": "9a81b1c3fa012137a2dd4d1df40f0fe9377b87a586b380efd6aa35951c79e5f5",
+  "function_sha256": "4ba7c59aea2bdfd2142742db279c92ae5ae55ba8fa8e23d377756cc7715a201a",
+  "selected_chunks": 12,
+  "evidence_characters": 6000,
+  "cards_rule": "top eight unique URLs, read from verify_claim; simulated, not endpoint execution",
+  "rows": [
+    {
+      "source_number": 1,
+      "selected": true,
+      "displayed_by_top_eight_card_rule": true,
+      "title_visible": true,
+      "body_start_visible": true,
+      "body_end_visible": true
+    },
+    {
+      "source_number": 2,
+      "selected": true,
+      "displayed_by_top_eight_card_rule": true,
+      "title_visible": true,
+      "body_start_visible": true,
+      "body_end_visible": true
+    },
+    {
+      "source_number": 3,
+      "selected": true,
+      "displayed_by_top_eight_card_rule": true,
+      "title_visible": true,
+      "body_start_visible": true,
+      "body_end_visible": true
+    },
+    {
+      "source_number": 4,
+      "selected": true,
+      "displayed_by_top_eight_card_rule": true,
+      "title_visible": true,
+      "body_start_visible": true,
+      "body_end_visible": true
+    },
+    {
+      "source_number": 5,
+      "selected": true,
+      "displayed_by_top_eight_card_rule": true,
+      "title_visible": true,
+      "body_start_visible": true,
+      "body_end_visible": true
+    },
+    {
+      "source_number": 6,
+      "selected": true,
+      "displayed_by_top_eight_card_rule": true,
+      "title_visible": true,
+      "body_start_visible": true,
+      "body_end_visible": true
+    },
+    {
+      "source_number": 7,
+      "selected": true,
+      "displayed_by_top_eight_card_rule": true,
+      "title_visible": true,
+      "body_start_visible": true,
+      "body_end_visible": false
+    },
+    {
+      "source_number": 8,
+      "selected": true,
+      "displayed_by_top_eight_card_rule": true,
+      "title_visible": false,
+      "body_start_visible": false,
+      "body_end_visible": false
+    },
+    {
+      "source_number": 9,
+      "selected": true,
+      "displayed_by_top_eight_card_rule": false,
+      "title_visible": false,
+      "body_start_visible": false,
+      "body_end_visible": false
+    },
+    {
+      "source_number": 10,
+      "selected": true,
+      "displayed_by_top_eight_card_rule": false,
+      "title_visible": false,
+      "body_start_visible": false,
+      "body_end_visible": false
+    },
+    {
+      "source_number": 11,
+      "selected": true,
+      "displayed_by_top_eight_card_rule": false,
+      "title_visible": false,
+      "body_start_visible": false,
+      "body_end_visible": false
+    },
+    {
+      "source_number": 12,
+      "selected": true,
+      "displayed_by_top_eight_card_rule": false,
+      "title_visible": false,
+      "body_start_visible": false,
+      "body_end_visible": false
+    }
+  ],
+  "displayed_sources_with_no_body_start": 1,
+  "displayed_sources_with_incomplete_body": 2,
+  "late_qualifier_present_in_input": true,
+  "late_qualifier_visible_to_formatter_output": false,
+  "assertions_passed": 3,
+  "limitations": [
+    "Controlled 800-character bodies, not production traffic.",
+    "No claim that the model cited or relied on an unseen source.",
+    "Source cards may represent retrieved leads, but should then be labeled accordingly."
+  ]
+}

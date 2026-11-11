@@ -1,0 +1,12 @@
+{
+  "packet": "runs/starliner_body_packet.json",
+  "story": [
+    {"id":"capsule","event":"starliner.capsule.return","text":"Starliner is expected to return without its crew in early September."},
+    {"id":"astronauts","event":"crew9.astronauts.return","text":"Wilmore and Williams are expected to return with Crew-9 in February."},
+    {"id":"decision","event":"nasa.return.decision","text":"In August NASA decided to bring Starliner back without the two astronauts."}
+  ],
+  "proposals": [
+    {"id":"capsule-landing","available":"2024-09-07","event":"starliner.capsule.return","before_hash":"b80b2fed53b533fa1989d2668abbb3043a8efede3b599fe4c0ecd06dd21d16af","text":"Starliner landed without its crew in New Mexico on September 6, local time.","refs":{"D2P1":"b87e882488bad8dfe057292dc9efe9e6f032b28408445469695a1739f4d729ff"}},
+    {"id":"crew-splashdown","available":"2025-03-18","event":"crew9.astronauts.return","before_hash":"4567a06f5e90cf942ec62c5a7c0ec7620c900446692f25254348a32c3e2f3401","text":"Wilmore and Williams returned to Earth aboard the Crew-9 Dragon on March 18.","refs":{"D3P1":"b03903de9790d8038dc7b8265d0d9c103441fd630176ccf64317f27e574918b4","D3P2":"2814a2c43af20a73b984d129b5b8b44560d1ecdaafbe227c28948690b7522235"}}
+  ]
+}

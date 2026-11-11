@@ -1,0 +1,215 @@
+{
+  "retrieved_at_utc": "2026-11-09T17:18:12.320289+00:00",
+  "repository_revision": "8cb766fa003f4bacd10f4a101f4b0f013596b35d",
+  "mapping_sha256": "ba917df34a006b8d9baf0bd1e8d784f13d8b1597123f0e841cff2997fe4bf054",
+  "kind": "structural_reanalysis_of_published_packets_not_fresh_model_outputs",
+  "documents": 6,
+  "outputs": 18,
+  "empty_facts_without_gap_flag_count": 1,
+  "rows": [
+    {
+      "document": "annual-financial-report-19-20",
+      "arm_code": "X",
+      "arm_name": "sonnet-high",
+      "packet_sha256": "ea0720e197a33d535b3d4e77cdd90938f1c014a1812255646489dc9cf4b8791b",
+      "key_facts_count": 49,
+      "summary_characters": 1257,
+      "coverage_gap_field_present": true,
+      "coverage_gap_value": null,
+      "empty_facts_without_gap_flag": false
+    },
+    {
+      "document": "annual-financial-report-19-20",
+      "arm_code": "Y",
+      "arm_name": "gpt-mini",
+      "packet_sha256": "ea0720e197a33d535b3d4e77cdd90938f1c014a1812255646489dc9cf4b8791b",
+      "key_facts_count": 61,
+      "summary_characters": 1682,
+      "coverage_gap_field_present": true,
+      "coverage_gap_value": null,
+      "empty_facts_without_gap_flag": false
+    },
+    {
+      "document": "annual-financial-report-19-20",
+      "arm_code": "Z",
+      "arm_name": "sonnet-med",
+      "packet_sha256": "ea0720e197a33d535b3d4e77cdd90938f1c014a1812255646489dc9cf4b8791b",
+      "key_facts_count": 44,
+      "summary_characters": 1107,
+      "coverage_gap_field_present": true,
+      "coverage_gap_value": null,
+      "empty_facts_without_gap_flag": false
+    },
+    {
+      "document": "annual-financial-report-20-21",
+      "arm_code": "X",
+      "arm_name": "gpt-mini",
+      "packet_sha256": "fca5275cb93ba6f962c790731020c2dad448a880d0dcc1076eb5fb636b688eeb",
+      "key_facts_count": 242,
+      "summary_characters": 658,
+      "coverage_gap_field_present": true,
+      "coverage_gap_value": null,
+      "empty_facts_without_gap_flag": false
+    },
+    {
+      "document": "annual-financial-report-20-21",
+      "arm_code": "Y",
+      "arm_name": "sonnet-high",
+      "packet_sha256": "fca5275cb93ba6f962c790731020c2dad448a880d0dcc1076eb5fb636b688eeb",
+      "key_facts_count": 63,
+      "summary_characters": 1299,
+      "coverage_gap_field_present": true,
+      "coverage_gap_value": null,
+      "empty_facts_without_gap_flag": false
+    },
+    {
+      "document": "annual-financial-report-20-21",
+      "arm_code": "Z",
+      "arm_name": "sonnet-med",
+      "packet_sha256": "fca5275cb93ba6f962c790731020c2dad448a880d0dcc1076eb5fb636b688eeb",
+      "key_facts_count": 56,
+      "summary_characters": 1339,
+      "coverage_gap_field_present": true,
+      "coverage_gap_value": null,
+      "empty_facts_without_gap_flag": false
+    },
+    {
+      "document": "first-report-monitor",
+      "arm_code": "X",
+      "arm_name": "gpt-mini",
+      "packet_sha256": "464d5745901039709e1d6a97b4b5fc94812e2d892831b8f895ef05e8112ff526",
+      "key_facts_count": 60,
+      "summary_characters": 1892,
+      "coverage_gap_field_present": true,
+      "coverage_gap_value": null,
+      "empty_facts_without_gap_flag": false
+    },
+    {
+      "document": "first-report-monitor",
+      "arm_code": "Y",
+      "arm_name": "sonnet-high",
+      "packet_sha256": "464d5745901039709e1d6a97b4b5fc94812e2d892831b8f895ef05e8112ff526",
+      "key_facts_count": 38,
+      "summary_characters": 1063,
+      "coverage_gap_field_present": true,
+      "coverage_gap_value": null,
+      "empty_facts_without_gap_flag": false
+    },
+    {
+      "document": "first-report-monitor",
+      "arm_code": "Z",
+      "arm_name": "sonnet-med",
+      "packet_sha256": "464d5745901039709e1d6a97b4b5fc94812e2d892831b8f895ef05e8112ff526",
+      "key_facts_count": 28,
+      "summary_characters": 1274,
+      "coverage_gap_field_present": true,
+      "coverage_gap_value": null,
+      "empty_facts_without_gap_flag": false
+    },
+    {
+      "document": "initial-order-2021-02-01",
+      "arm_code": "X",
+      "arm_name": "sonnet-med",
+      "packet_sha256": "49a71125afcf2fc1fe2915d1b494ef0ea32f275d44c7956df367c7201dbb0880",
+      "key_facts_count": 17,
+      "summary_characters": 715,
+      "coverage_gap_field_present": true,
+      "coverage_gap_value": null,
+      "empty_facts_without_gap_flag": false
+    },
+    {
+      "document": "initial-order-2021-02-01",
+      "arm_code": "Y",
+      "arm_name": "gpt-mini",
+      "packet_sha256": "49a71125afcf2fc1fe2915d1b494ef0ea32f275d44c7956df367c7201dbb0880",
+      "key_facts_count": 21,
+      "summary_characters": 677,
+      "coverage_gap_field_present": true,
+      "coverage_gap_value": null,
+      "empty_facts_without_gap_flag": false
+    },
+    {
+      "document": "initial-order-2021-02-01",
+      "arm_code": "Z",
+      "arm_name": "sonnet-high",
+      "packet_sha256": "49a71125afcf2fc1fe2915d1b494ef0ea32f275d44c7956df367c7201dbb0880",
+      "key_facts_count": 0,
+      "summary_characters": 3,
+      "coverage_gap_field_present": true,
+      "coverage_gap_value": null,
+      "empty_facts_without_gap_flag": true
+    },
+    {
+      "document": "pension-order-2021-03-17",
+      "arm_code": "X",
+      "arm_name": "gpt-mini",
+      "packet_sha256": "f3b7f0142cef8bb7e343725cf95606396e5cb17e107ab70bdf947b7fe7364823",
+      "key_facts_count": 13,
+      "summary_characters": 753,
+      "coverage_gap_field_present": true,
+      "coverage_gap_value": null,
+      "empty_facts_without_gap_flag": false
+    },
+    {
+      "document": "pension-order-2021-03-17",
+      "arm_code": "Y",
+      "arm_name": "sonnet-med",
+      "packet_sha256": "f3b7f0142cef8bb7e343725cf95606396e5cb17e107ab70bdf947b7fe7364823",
+      "key_facts_count": 14,
+      "summary_characters": 904,
+      "coverage_gap_field_present": true,
+      "coverage_gap_value": null,
+      "empty_facts_without_gap_flag": false
+    },
+    {
+      "document": "pension-order-2021-03-17",
+      "arm_code": "Z",
+      "arm_name": "sonnet-high",
+      "packet_sha256": "f3b7f0142cef8bb7e343725cf95606396e5cb17e107ab70bdf947b7fe7364823",
+      "key_facts_count": 16,
+      "summary_characters": 991,
+      "coverage_gap_field_present": true,
+      "coverage_gap_value": null,
+      "empty_facts_without_gap_flag": false
+    },
+    {
+      "document": "prefiling-report-monitor",
+      "arm_code": "X",
+      "arm_name": "sonnet-med",
+      "packet_sha256": "0f1b3a269419907438f53fc2ece3c175d3b47c46ae9279934444978d7263ae00",
+      "key_facts_count": 49,
+      "summary_characters": 1230,
+      "coverage_gap_field_present": true,
+      "coverage_gap_value": null,
+      "empty_facts_without_gap_flag": false
+    },
+    {
+      "document": "prefiling-report-monitor",
+      "arm_code": "Y",
+      "arm_name": "sonnet-high",
+      "packet_sha256": "0f1b3a269419907438f53fc2ece3c175d3b47c46ae9279934444978d7263ae00",
+      "key_facts_count": 63,
+      "summary_characters": 1379,
+      "coverage_gap_field_present": true,
+      "coverage_gap_value": null,
+      "empty_facts_without_gap_flag": false
+    },
+    {
+      "document": "prefiling-report-monitor",
+      "arm_code": "Z",
+      "arm_name": "gpt-mini",
+      "packet_sha256": "0f1b3a269419907438f53fc2ece3c175d3b47c46ae9279934444978d7263ae00",
+      "key_facts_count": 113,
+      "summary_characters": 1912,
+      "coverage_gap_field_present": true,
+      "coverage_gap_value": null,
+      "empty_facts_without_gap_flag": false
+    }
+  ],
+  "limitations": [
+    "Nonempty facts do not prove completeness or correctness.",
+    "These historical packets are not the current product's outputs.",
+    "No inference costs, success logs, or model behavior reproduced.",
+    "A missing gap flag is not a universal product promise of completeness."
+  ]
+}

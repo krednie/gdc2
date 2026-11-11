@@ -1,0 +1,36 @@
+{
+  "records": [
+    {
+      "arm": "generic",
+      "group": "faa",
+      "request_sha256": "fa7acd8f2291bc8183dda3203a0598038ab60e36ec187e681a6415e1d8981ab9",
+      "status": "http_error",
+      "http_status": 403,
+      "elapsed_seconds": 0.218
+    }
+  ],
+  "scores": {
+    "generic": {
+      "planned_cases": 12,
+      "scored_cases": 0,
+      "missing_cases": 12,
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "tn": 0,
+      "correct_of_planned": 0.0,
+      "accuracy_on_scored": null
+    },
+    "role_aware": {
+      "planned_cases": 12,
+      "scored_cases": 0,
+      "missing_cases": 12,
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "tn": 0,
+      "correct_of_planned": 0.0,
+      "accuracy_on_scored": null
+    }
+  }
+}

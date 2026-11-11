@@ -1,0 +1,1398 @@
+{
+  "retrieved_at_utc": "2026-11-09T17:21:51.692457+00:00",
+  "revision": "8cb766fa003f4bacd10f4a101f4b0f013596b35d",
+  "mapping_sha256": "ba917df34a006b8d9baf0bd1e8d784f13d8b1597123f0e841cff2997fe4bf054",
+  "label_source": "published_model_judge_not_independent_human_gold",
+  "documents": [
+    {
+      "document": "annual-financial-report-19-20",
+      "packet_sha256": "ea0720e197a33d535b3d4e77cdd90938f1c014a1812255646489dc9cf4b8791b",
+      "judgment_sha256": "58a098e4da4277dd62957e63862669b5e1ee4d332b378971421608ad17869d24",
+      "outputs": [
+        {
+          "arm": "X",
+          "fact_count": 49,
+          "summary_characters": 1257,
+          "distinct_cited_pages": 25,
+          "important_items": 9,
+          "credited_count": 7,
+          "strict_count": 6
+        },
+        {
+          "arm": "Y",
+          "fact_count": 61,
+          "summary_characters": 1682,
+          "distinct_cited_pages": 25,
+          "important_items": 9,
+          "credited_count": 3,
+          "strict_count": 2
+        },
+        {
+          "arm": "Z",
+          "fact_count": 44,
+          "summary_characters": 1107,
+          "distinct_cited_pages": 23,
+          "important_items": 9,
+          "credited_count": 6,
+          "strict_count": 6
+        }
+      ]
+    },
+    {
+      "document": "annual-financial-report-20-21",
+      "packet_sha256": "fca5275cb93ba6f962c790731020c2dad448a880d0dcc1076eb5fb636b688eeb",
+      "judgment_sha256": "1d5638a490fff4ffc47448c4ecab19c5d51a70b8cf8ece16afd4fb972c94c554",
+      "outputs": [
+        {
+          "arm": "X",
+          "fact_count": 242,
+          "summary_characters": 658,
+          "distinct_cited_pages": 65,
+          "important_items": 10,
+          "credited_count": 8,
+          "strict_count": 8
+        },
+        {
+          "arm": "Y",
+          "fact_count": 63,
+          "summary_characters": 1299,
+          "distinct_cited_pages": 36,
+          "important_items": 10,
+          "credited_count": 6,
+          "strict_count": 6
+        },
+        {
+          "arm": "Z",
+          "fact_count": 56,
+          "summary_characters": 1339,
+          "distinct_cited_pages": 34,
+          "important_items": 10,
+          "credited_count": 6,
+          "strict_count": 5
+        }
+      ]
+    },
+    {
+      "document": "first-report-monitor",
+      "packet_sha256": "464d5745901039709e1d6a97b4b5fc94812e2d892831b8f895ef05e8112ff526",
+      "judgment_sha256": "10d1fd486b51313be1bcf025b68a428179994bd1c71d35cc78a1d644d12b0738",
+      "outputs": [
+        {
+          "arm": "X",
+          "fact_count": 60,
+          "summary_characters": 1892,
+          "distinct_cited_pages": 24,
+          "important_items": 7,
+          "credited_count": 3,
+          "strict_count": 2
+        },
+        {
+          "arm": "Y",
+          "fact_count": 38,
+          "summary_characters": 1063,
+          "distinct_cited_pages": 15,
+          "important_items": 7,
+          "credited_count": 2,
+          "strict_count": 2
+        },
+        {
+          "arm": "Z",
+          "fact_count": 28,
+          "summary_characters": 1274,
+          "distinct_cited_pages": 0,
+          "important_items": 7,
+          "credited_count": 3,
+          "strict_count": 3
+        }
+      ]
+    },
+    {
+      "document": "initial-order-2021-02-01",
+      "packet_sha256": "49a71125afcf2fc1fe2915d1b494ef0ea32f275d44c7956df367c7201dbb0880",
+      "judgment_sha256": "59a8c2e68d7e16542f3445ebed853bf76b4d48b67b52acb06f2db44d33488190",
+      "outputs": [
+        {
+          "arm": "X",
+          "fact_count": 17,
+          "summary_characters": 715,
+          "distinct_cited_pages": 13,
+          "important_items": 9,
+          "credited_count": 4,
+          "strict_count": 4
+        },
+        {
+          "arm": "Y",
+          "fact_count": 21,
+          "summary_characters": 677,
+          "distinct_cited_pages": 15,
+          "important_items": 9,
+          "credited_count": 4,
+          "strict_count": 3
+        },
+        {
+          "arm": "Z",
+          "fact_count": 0,
+          "summary_characters": 3,
+          "distinct_cited_pages": 0,
+          "important_items": 9,
+          "credited_count": 0,
+          "strict_count": 0
+        }
+      ]
+    },
+    {
+      "document": "pension-order-2021-03-17",
+      "packet_sha256": "f3b7f0142cef8bb7e343725cf95606396e5cb17e107ab70bdf947b7fe7364823",
+      "judgment_sha256": "e12d34bf0882c429315ec74b8130b052557ee20f68baa2c50525877d48da6547",
+      "outputs": [
+        {
+          "arm": "X",
+          "fact_count": 13,
+          "summary_characters": 753,
+          "distinct_cited_pages": 3,
+          "important_items": 6,
+          "credited_count": 3,
+          "strict_count": 3
+        },
+        {
+          "arm": "Y",
+          "fact_count": 14,
+          "summary_characters": 904,
+          "distinct_cited_pages": 0,
+          "important_items": 6,
+          "credited_count": 6,
+          "strict_count": 6
+        },
+        {
+          "arm": "Z",
+          "fact_count": 16,
+          "summary_characters": 991,
+          "distinct_cited_pages": 4,
+          "important_items": 6,
+          "credited_count": 5,
+          "strict_count": 5
+        }
+      ]
+    },
+    {
+      "document": "prefiling-report-monitor",
+      "packet_sha256": "0f1b3a269419907438f53fc2ece3c175d3b47c46ae9279934444978d7263ae00",
+      "judgment_sha256": "34f6b0cea73bb46f56d08b241a2bc2268e3b5810550283191e1809c62c502d85",
+      "outputs": [
+        {
+          "arm": "X",
+          "fact_count": 49,
+          "summary_characters": 1230,
+          "distinct_cited_pages": 0,
+          "important_items": 12,
+          "credited_count": 8,
+          "strict_count": 6
+        },
+        {
+          "arm": "Y",
+          "fact_count": 63,
+          "summary_characters": 1379,
+          "distinct_cited_pages": 35,
+          "important_items": 12,
+          "credited_count": 10,
+          "strict_count": 7
+        },
+        {
+          "arm": "Z",
+          "fact_count": 113,
+          "summary_characters": 1912,
+          "distinct_cited_pages": 43,
+          "important_items": 12,
+          "credited_count": 9,
+          "strict_count": 7
+        }
+      ]
+    }
+  ],
+  "comparisons": [
+    {
+      "outcome": "credited_count",
+      "proxy": "fact_count",
+      "exclude_empty": false,
+      "counts": {
+        "concordant": 10,
+        "discordant": 5,
+        "proxy_tied": 0,
+        "outcome_tied": 3,
+        "both_tied": 0
+      },
+      "total_pairs": 18,
+      "untied_pairs": 15,
+      "conditional_concordance": 0.6666666666666666,
+      "inversions": [
+        {
+          "document": "annual-financial-report-19-20",
+          "a": "X",
+          "b": "Y",
+          "proxy_values": [
+            49,
+            61
+          ],
+          "coverage_hits": [
+            7,
+            3
+          ],
+          "coverage_denominator": 9
+        },
+        {
+          "document": "annual-financial-report-19-20",
+          "a": "Y",
+          "b": "Z",
+          "proxy_values": [
+            61,
+            44
+          ],
+          "coverage_hits": [
+            3,
+            6
+          ],
+          "coverage_denominator": 9
+        },
+        {
+          "document": "first-report-monitor",
+          "a": "Y",
+          "b": "Z",
+          "proxy_values": [
+            38,
+            28
+          ],
+          "coverage_hits": [
+            2,
+            3
+          ],
+          "coverage_denominator": 7
+        },
+        {
+          "document": "pension-order-2021-03-17",
+          "a": "Y",
+          "b": "Z",
+          "proxy_values": [
+            14,
+            16
+          ],
+          "coverage_hits": [
+            6,
+            5
+          ],
+          "coverage_denominator": 6
+        },
+        {
+          "document": "prefiling-report-monitor",
+          "a": "Y",
+          "b": "Z",
+          "proxy_values": [
+            63,
+            113
+          ],
+          "coverage_hits": [
+            10,
+            9
+          ],
+          "coverage_denominator": 12
+        }
+      ]
+    },
+    {
+      "outcome": "credited_count",
+      "proxy": "fact_count",
+      "exclude_empty": true,
+      "counts": {
+        "concordant": 8,
+        "discordant": 5,
+        "proxy_tied": 0,
+        "outcome_tied": 3,
+        "both_tied": 0
+      },
+      "total_pairs": 16,
+      "untied_pairs": 13,
+      "conditional_concordance": 0.6153846153846154,
+      "inversions": [
+        {
+          "document": "annual-financial-report-19-20",
+          "a": "X",
+          "b": "Y",
+          "proxy_values": [
+            49,
+            61
+          ],
+          "coverage_hits": [
+            7,
+            3
+          ],
+          "coverage_denominator": 9
+        },
+        {
+          "document": "annual-financial-report-19-20",
+          "a": "Y",
+          "b": "Z",
+          "proxy_values": [
+            61,
+            44
+          ],
+          "coverage_hits": [
+            3,
+            6
+          ],
+          "coverage_denominator": 9
+        },
+        {
+          "document": "first-report-monitor",
+          "a": "Y",
+          "b": "Z",
+          "proxy_values": [
+            38,
+            28
+          ],
+          "coverage_hits": [
+            2,
+            3
+          ],
+          "coverage_denominator": 7
+        },
+        {
+          "document": "pension-order-2021-03-17",
+          "a": "Y",
+          "b": "Z",
+          "proxy_values": [
+            14,
+            16
+          ],
+          "coverage_hits": [
+            6,
+            5
+          ],
+          "coverage_denominator": 6
+        },
+        {
+          "document": "prefiling-report-monitor",
+          "a": "Y",
+          "b": "Z",
+          "proxy_values": [
+            63,
+            113
+          ],
+          "coverage_hits": [
+            10,
+            9
+          ],
+          "coverage_denominator": 12
+        }
+      ]
+    },
+    {
+      "outcome": "credited_count",
+      "proxy": "summary_characters",
+      "exclude_empty": false,
+      "counts": {
+        "concordant": 9,
+        "discordant": 6,
+        "proxy_tied": 0,
+        "outcome_tied": 3,
+        "both_tied": 0
+      },
+      "total_pairs": 18,
+      "untied_pairs": 15,
+      "conditional_concordance": 0.6,
+      "inversions": [
+        {
+          "document": "annual-financial-report-19-20",
+          "a": "X",
+          "b": "Y",
+          "proxy_values": [
+            1257,
+            1682
+          ],
+          "coverage_hits": [
+            7,
+            3
+          ],
+          "coverage_denominator": 9
+        },
+        {
+          "document": "annual-financial-report-19-20",
+          "a": "Y",
+          "b": "Z",
+          "proxy_values": [
+            1682,
+            1107
+          ],
+          "coverage_hits": [
+            3,
+            6
+          ],
+          "coverage_denominator": 9
+        },
+        {
+          "document": "annual-financial-report-20-21",
+          "a": "X",
+          "b": "Y",
+          "proxy_values": [
+            658,
+            1299
+          ],
+          "coverage_hits": [
+            8,
+            6
+          ],
+          "coverage_denominator": 10
+        },
+        {
+          "document": "annual-financial-report-20-21",
+          "a": "X",
+          "b": "Z",
+          "proxy_values": [
+            658,
+            1339
+          ],
+          "coverage_hits": [
+            8,
+            6
+          ],
+          "coverage_denominator": 10
+        },
+        {
+          "document": "pension-order-2021-03-17",
+          "a": "Y",
+          "b": "Z",
+          "proxy_values": [
+            904,
+            991
+          ],
+          "coverage_hits": [
+            6,
+            5
+          ],
+          "coverage_denominator": 6
+        },
+        {
+          "document": "prefiling-report-monitor",
+          "a": "Y",
+          "b": "Z",
+          "proxy_values": [
+            1379,
+            1912
+          ],
+          "coverage_hits": [
+            10,
+            9
+          ],
+          "coverage_denominator": 12
+        }
+      ]
+    },
+    {
+      "outcome": "credited_count",
+      "proxy": "summary_characters",
+      "exclude_empty": true,
+      "counts": {
+        "concordant": 7,
+        "discordant": 6,
+        "proxy_tied": 0,
+        "outcome_tied": 3,
+        "both_tied": 0
+      },
+      "total_pairs": 16,
+      "untied_pairs": 13,
+      "conditional_concordance": 0.5384615384615384,
+      "inversions": [
+        {
+          "document": "annual-financial-report-19-20",
+          "a": "X",
+          "b": "Y",
+          "proxy_values": [
+            1257,
+            1682
+          ],
+          "coverage_hits": [
+            7,
+            3
+          ],
+          "coverage_denominator": 9
+        },
+        {
+          "document": "annual-financial-report-19-20",
+          "a": "Y",
+          "b": "Z",
+          "proxy_values": [
+            1682,
+            1107
+          ],
+          "coverage_hits": [
+            3,
+            6
+          ],
+          "coverage_denominator": 9
+        },
+        {
+          "document": "annual-financial-report-20-21",
+          "a": "X",
+          "b": "Y",
+          "proxy_values": [
+            658,
+            1299
+          ],
+          "coverage_hits": [
+            8,
+            6
+          ],
+          "coverage_denominator": 10
+        },
+        {
+          "document": "annual-financial-report-20-21",
+          "a": "X",
+          "b": "Z",
+          "proxy_values": [
+            658,
+            1339
+          ],
+          "coverage_hits": [
+            8,
+            6
+          ],
+          "coverage_denominator": 10
+        },
+        {
+          "document": "pension-order-2021-03-17",
+          "a": "Y",
+          "b": "Z",
+          "proxy_values": [
+            904,
+            991
+          ],
+          "coverage_hits": [
+            6,
+            5
+          ],
+          "coverage_denominator": 6
+        },
+        {
+          "document": "prefiling-report-monitor",
+          "a": "Y",
+          "b": "Z",
+          "proxy_values": [
+            1379,
+            1912
+          ],
+          "coverage_hits": [
+            10,
+            9
+          ],
+          "coverage_denominator": 12
+        }
+      ]
+    },
+    {
+      "outcome": "credited_count",
+      "proxy": "distinct_cited_pages",
+      "exclude_empty": false,
+      "counts": {
+        "concordant": 9,
+        "discordant": 5,
+        "proxy_tied": 1,
+        "outcome_tied": 3,
+        "both_tied": 0
+      },
+      "total_pairs": 18,
+      "untied_pairs": 14,
+      "conditional_concordance": 0.6428571428571429,
+      "inversions": [
+        {
+          "document": "annual-financial-report-19-20",
+          "a": "Y",
+          "b": "Z",
+          "proxy_values": [
+            25,
+            23
+          ],
+          "coverage_hits": [
+            3,
+            6
+          ],
+          "coverage_denominator": 9
+        },
+        {
+          "document": "first-report-monitor",
+          "a": "Y",
+          "b": "Z",
+          "proxy_values": [
+            15,
+            0
+          ],
+          "coverage_hits": [
+            2,
+            3
+          ],
+          "coverage_denominator": 7
+        },
+        {
+          "document": "pension-order-2021-03-17",
+          "a": "X",
+          "b": "Y",
+          "proxy_values": [
+            3,
+            0
+          ],
+          "coverage_hits": [
+            3,
+            6
+          ],
+          "coverage_denominator": 6
+        },
+        {
+          "document": "pension-order-2021-03-17",
+          "a": "Y",
+          "b": "Z",
+          "proxy_values": [
+            0,
+            4
+          ],
+          "coverage_hits": [
+            6,
+            5
+          ],
+          "coverage_denominator": 6
+        },
+        {
+          "document": "prefiling-report-monitor",
+          "a": "Y",
+          "b": "Z",
+          "proxy_values": [
+            35,
+            43
+          ],
+          "coverage_hits": [
+            10,
+            9
+          ],
+          "coverage_denominator": 12
+        }
+      ]
+    },
+    {
+      "outcome": "credited_count",
+      "proxy": "distinct_cited_pages",
+      "exclude_empty": true,
+      "counts": {
+        "concordant": 7,
+        "discordant": 5,
+        "proxy_tied": 1,
+        "outcome_tied": 3,
+        "both_tied": 0
+      },
+      "total_pairs": 16,
+      "untied_pairs": 12,
+      "conditional_concordance": 0.5833333333333334,
+      "inversions": [
+        {
+          "document": "annual-financial-report-19-20",
+          "a": "Y",
+          "b": "Z",
+          "proxy_values": [
+            25,
+            23
+          ],
+          "coverage_hits": [
+            3,
+            6
+          ],
+          "coverage_denominator": 9
+        },
+        {
+          "document": "first-report-monitor",
+          "a": "Y",
+          "b": "Z",
+          "proxy_values": [
+            15,
+            0
+          ],
+          "coverage_hits": [
+            2,
+            3
+          ],
+          "coverage_denominator": 7
+        },
+        {
+          "document": "pension-order-2021-03-17",
+          "a": "X",
+          "b": "Y",
+          "proxy_values": [
+            3,
+            0
+          ],
+          "coverage_hits": [
+            3,
+            6
+          ],
+          "coverage_denominator": 6
+        },
+        {
+          "document": "pension-order-2021-03-17",
+          "a": "Y",
+          "b": "Z",
+          "proxy_values": [
+            0,
+            4
+          ],
+          "coverage_hits": [
+            6,
+            5
+          ],
+          "coverage_denominator": 6
+        },
+        {
+          "document": "prefiling-report-monitor",
+          "a": "Y",
+          "b": "Z",
+          "proxy_values": [
+            35,
+            43
+          ],
+          "coverage_hits": [
+            10,
+            9
+          ],
+          "coverage_denominator": 12
+        }
+      ]
+    },
+    {
+      "outcome": "strict_count",
+      "proxy": "fact_count",
+      "exclude_empty": false,
+      "counts": {
+        "concordant": 9,
+        "discordant": 6,
+        "proxy_tied": 0,
+        "outcome_tied": 3,
+        "both_tied": 0
+      },
+      "total_pairs": 18,
+      "untied_pairs": 15,
+      "conditional_concordance": 0.6,
+      "inversions": [
+        {
+          "document": "annual-financial-report-19-20",
+          "a": "X",
+          "b": "Y",
+          "proxy_values": [
+            49,
+            61
+          ],
+          "coverage_hits": [
+            6,
+            2
+          ],
+          "coverage_denominator": 9
+        },
+        {
+          "document": "annual-financial-report-19-20",
+          "a": "Y",
+          "b": "Z",
+          "proxy_values": [
+            61,
+            44
+          ],
+          "coverage_hits": [
+            2,
+            6
+          ],
+          "coverage_denominator": 9
+        },
+        {
+          "document": "first-report-monitor",
+          "a": "X",
+          "b": "Z",
+          "proxy_values": [
+            60,
+            28
+          ],
+          "coverage_hits": [
+            2,
+            3
+          ],
+          "coverage_denominator": 7
+        },
+        {
+          "document": "first-report-monitor",
+          "a": "Y",
+          "b": "Z",
+          "proxy_values": [
+            38,
+            28
+          ],
+          "coverage_hits": [
+            2,
+            3
+          ],
+          "coverage_denominator": 7
+        },
+        {
+          "document": "initial-order-2021-02-01",
+          "a": "X",
+          "b": "Y",
+          "proxy_values": [
+            17,
+            21
+          ],
+          "coverage_hits": [
+            4,
+            3
+          ],
+          "coverage_denominator": 9
+        },
+        {
+          "document": "pension-order-2021-03-17",
+          "a": "Y",
+          "b": "Z",
+          "proxy_values": [
+            14,
+            16
+          ],
+          "coverage_hits": [
+            6,
+            5
+          ],
+          "coverage_denominator": 6
+        }
+      ]
+    },
+    {
+      "outcome": "strict_count",
+      "proxy": "fact_count",
+      "exclude_empty": true,
+      "counts": {
+        "concordant": 7,
+        "discordant": 6,
+        "proxy_tied": 0,
+        "outcome_tied": 3,
+        "both_tied": 0
+      },
+      "total_pairs": 16,
+      "untied_pairs": 13,
+      "conditional_concordance": 0.5384615384615384,
+      "inversions": [
+        {
+          "document": "annual-financial-report-19-20",
+          "a": "X",
+          "b": "Y",
+          "proxy_values": [
+            49,
+            61
+          ],
+          "coverage_hits": [
+            6,
+            2
+          ],
+          "coverage_denominator": 9
+        },
+        {
+          "document": "annual-financial-report-19-20",
+          "a": "Y",
+          "b": "Z",
+          "proxy_values": [
+            61,
+            44
+          ],
+          "coverage_hits": [
+            2,
+            6
+          ],
+          "coverage_denominator": 9
+        },
+        {
+          "document": "first-report-monitor",
+          "a": "X",
+          "b": "Z",
+          "proxy_values": [
+            60,
+            28
+          ],
+          "coverage_hits": [
+            2,
+            3
+          ],
+          "coverage_denominator": 7
+        },
+        {
+          "document": "first-report-monitor",
+          "a": "Y",
+          "b": "Z",
+          "proxy_values": [
+            38,
+            28
+          ],
+          "coverage_hits": [
+            2,
+            3
+          ],
+          "coverage_denominator": 7
+        },
+        {
+          "document": "initial-order-2021-02-01",
+          "a": "X",
+          "b": "Y",
+          "proxy_values": [
+            17,
+            21
+          ],
+          "coverage_hits": [
+            4,
+            3
+          ],
+          "coverage_denominator": 9
+        },
+        {
+          "document": "pension-order-2021-03-17",
+          "a": "Y",
+          "b": "Z",
+          "proxy_values": [
+            14,
+            16
+          ],
+          "coverage_hits": [
+            6,
+            5
+          ],
+          "coverage_denominator": 6
+        }
+      ]
+    },
+    {
+      "outcome": "strict_count",
+      "proxy": "summary_characters",
+      "exclude_empty": false,
+      "counts": {
+        "concordant": 8,
+        "discordant": 7,
+        "proxy_tied": 0,
+        "outcome_tied": 3,
+        "both_tied": 0
+      },
+      "total_pairs": 18,
+      "untied_pairs": 15,
+      "conditional_concordance": 0.5333333333333333,
+      "inversions": [
+        {
+          "document": "annual-financial-report-19-20",
+          "a": "X",
+          "b": "Y",
+          "proxy_values": [
+            1257,
+            1682
+          ],
+          "coverage_hits": [
+            6,
+            2
+          ],
+          "coverage_denominator": 9
+        },
+        {
+          "document": "annual-financial-report-19-20",
+          "a": "Y",
+          "b": "Z",
+          "proxy_values": [
+            1682,
+            1107
+          ],
+          "coverage_hits": [
+            2,
+            6
+          ],
+          "coverage_denominator": 9
+        },
+        {
+          "document": "annual-financial-report-20-21",
+          "a": "X",
+          "b": "Y",
+          "proxy_values": [
+            658,
+            1299
+          ],
+          "coverage_hits": [
+            8,
+            6
+          ],
+          "coverage_denominator": 10
+        },
+        {
+          "document": "annual-financial-report-20-21",
+          "a": "X",
+          "b": "Z",
+          "proxy_values": [
+            658,
+            1339
+          ],
+          "coverage_hits": [
+            8,
+            5
+          ],
+          "coverage_denominator": 10
+        },
+        {
+          "document": "annual-financial-report-20-21",
+          "a": "Y",
+          "b": "Z",
+          "proxy_values": [
+            1299,
+            1339
+          ],
+          "coverage_hits": [
+            6,
+            5
+          ],
+          "coverage_denominator": 10
+        },
+        {
+          "document": "first-report-monitor",
+          "a": "X",
+          "b": "Z",
+          "proxy_values": [
+            1892,
+            1274
+          ],
+          "coverage_hits": [
+            2,
+            3
+          ],
+          "coverage_denominator": 7
+        },
+        {
+          "document": "pension-order-2021-03-17",
+          "a": "Y",
+          "b": "Z",
+          "proxy_values": [
+            904,
+            991
+          ],
+          "coverage_hits": [
+            6,
+            5
+          ],
+          "coverage_denominator": 6
+        }
+      ]
+    },
+    {
+      "outcome": "strict_count",
+      "proxy": "summary_characters",
+      "exclude_empty": true,
+      "counts": {
+        "concordant": 6,
+        "discordant": 7,
+        "proxy_tied": 0,
+        "outcome_tied": 3,
+        "both_tied": 0
+      },
+      "total_pairs": 16,
+      "untied_pairs": 13,
+      "conditional_concordance": 0.46153846153846156,
+      "inversions": [
+        {
+          "document": "annual-financial-report-19-20",
+          "a": "X",
+          "b": "Y",
+          "proxy_values": [
+            1257,
+            1682
+          ],
+          "coverage_hits": [
+            6,
+            2
+          ],
+          "coverage_denominator": 9
+        },
+        {
+          "document": "annual-financial-report-19-20",
+          "a": "Y",
+          "b": "Z",
+          "proxy_values": [
+            1682,
+            1107
+          ],
+          "coverage_hits": [
+            2,
+            6
+          ],
+          "coverage_denominator": 9
+        },
+        {
+          "document": "annual-financial-report-20-21",
+          "a": "X",
+          "b": "Y",
+          "proxy_values": [
+            658,
+            1299
+          ],
+          "coverage_hits": [
+            8,
+            6
+          ],
+          "coverage_denominator": 10
+        },
+        {
+          "document": "annual-financial-report-20-21",
+          "a": "X",
+          "b": "Z",
+          "proxy_values": [
+            658,
+            1339
+          ],
+          "coverage_hits": [
+            8,
+            5
+          ],
+          "coverage_denominator": 10
+        },
+        {
+          "document": "annual-financial-report-20-21",
+          "a": "Y",
+          "b": "Z",
+          "proxy_values": [
+            1299,
+            1339
+          ],
+          "coverage_hits": [
+            6,
+            5
+          ],
+          "coverage_denominator": 10
+        },
+        {
+          "document": "first-report-monitor",
+          "a": "X",
+          "b": "Z",
+          "proxy_values": [
+            1892,
+            1274
+          ],
+          "coverage_hits": [
+            2,
+            3
+          ],
+          "coverage_denominator": 7
+        },
+        {
+          "document": "pension-order-2021-03-17",
+          "a": "Y",
+          "b": "Z",
+          "proxy_values": [
+            904,
+            991
+          ],
+          "coverage_hits": [
+            6,
+            5
+          ],
+          "coverage_denominator": 6
+        }
+      ]
+    },
+    {
+      "outcome": "strict_count",
+      "proxy": "distinct_cited_pages",
+      "exclude_empty": false,
+      "counts": {
+        "concordant": 8,
+        "discordant": 6,
+        "proxy_tied": 1,
+        "outcome_tied": 3,
+        "both_tied": 0
+      },
+      "total_pairs": 18,
+      "untied_pairs": 14,
+      "conditional_concordance": 0.5714285714285714,
+      "inversions": [
+        {
+          "document": "annual-financial-report-19-20",
+          "a": "Y",
+          "b": "Z",
+          "proxy_values": [
+            25,
+            23
+          ],
+          "coverage_hits": [
+            2,
+            6
+          ],
+          "coverage_denominator": 9
+        },
+        {
+          "document": "first-report-monitor",
+          "a": "X",
+          "b": "Z",
+          "proxy_values": [
+            24,
+            0
+          ],
+          "coverage_hits": [
+            2,
+            3
+          ],
+          "coverage_denominator": 7
+        },
+        {
+          "document": "first-report-monitor",
+          "a": "Y",
+          "b": "Z",
+          "proxy_values": [
+            15,
+            0
+          ],
+          "coverage_hits": [
+            2,
+            3
+          ],
+          "coverage_denominator": 7
+        },
+        {
+          "document": "initial-order-2021-02-01",
+          "a": "X",
+          "b": "Y",
+          "proxy_values": [
+            13,
+            15
+          ],
+          "coverage_hits": [
+            4,
+            3
+          ],
+          "coverage_denominator": 9
+        },
+        {
+          "document": "pension-order-2021-03-17",
+          "a": "X",
+          "b": "Y",
+          "proxy_values": [
+            3,
+            0
+          ],
+          "coverage_hits": [
+            3,
+            6
+          ],
+          "coverage_denominator": 6
+        },
+        {
+          "document": "pension-order-2021-03-17",
+          "a": "Y",
+          "b": "Z",
+          "proxy_values": [
+            0,
+            4
+          ],
+          "coverage_hits": [
+            6,
+            5
+          ],
+          "coverage_denominator": 6
+        }
+      ]
+    },
+    {
+      "outcome": "strict_count",
+      "proxy": "distinct_cited_pages",
+      "exclude_empty": true,
+      "counts": {
+        "concordant": 6,
+        "discordant": 6,
+        "proxy_tied": 1,
+        "outcome_tied": 3,
+        "both_tied": 0
+      },
+      "total_pairs": 16,
+      "untied_pairs": 12,
+      "conditional_concordance": 0.5,
+      "inversions": [
+        {
+          "document": "annual-financial-report-19-20",
+          "a": "Y",
+          "b": "Z",
+          "proxy_values": [
+            25,
+            23
+          ],
+          "coverage_hits": [
+            2,
+            6
+          ],
+          "coverage_denominator": 9
+        },
+        {
+          "document": "first-report-monitor",
+          "a": "X",
+          "b": "Z",
+          "proxy_values": [
+            24,
+            0
+          ],
+          "coverage_hits": [
+            2,
+            3
+          ],
+          "coverage_denominator": 7
+        },
+        {
+          "document": "first-report-monitor",
+          "a": "Y",
+          "b": "Z",
+          "proxy_values": [
+            15,
+            0
+          ],
+          "coverage_hits": [
+            2,
+            3
+          ],
+          "coverage_denominator": 7
+        },
+        {
+          "document": "initial-order-2021-02-01",
+          "a": "X",
+          "b": "Y",
+          "proxy_values": [
+            13,
+            15
+          ],
+          "coverage_hits": [
+            4,
+            3
+          ],
+          "coverage_denominator": 9
+        },
+        {
+          "document": "pension-order-2021-03-17",
+          "a": "X",
+          "b": "Y",
+          "proxy_values": [
+            3,
+            0
+          ],
+          "coverage_hits": [
+            3,
+            6
+          ],
+          "coverage_denominator": 6
+        },
+        {
+          "document": "pension-order-2021-03-17",
+          "a": "Y",
+          "b": "Z",
+          "proxy_values": [
+            0,
+            4
+          ],
+          "coverage_hits": [
+            6,
+            5
+          ],
+          "coverage_denominator": 6
+        }
+      ]
+    }
+  ]
+}

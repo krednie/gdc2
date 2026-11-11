@@ -1,0 +1,8 @@
+{
+  "id": "hunter",
+  "displayName": "Hunter",
+  "description": "A tiny, friendly black-and-tan German Shepherd with upright ears, expressive eyes, and a subtle tail wag.",
+  "spriteVersionNumber": 2,
+  "spritesheetPath": "spritesheet.webp",
+  "kind": "animal"
+}

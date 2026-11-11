@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "upgrade_mode": true,
+  "standard_rows_preserved": true,
+  "errors": [],
+  "warnings": [
+    "The legacy 8x9 atlas had hidden RGB under transparent pixels; the single required v2 despill pass cleared it without changing visible art.",
+    "Existing standard rows contain minor state-to-state accessory variation that predates this upgrade; the approved visible animation rows were preserved as requested."
+  ],
+  "visual_review": "The preserved standard contact sheet and final extended contact sheet retain Hunter's identity and readable state semantics. Independent final QA passed all 11 rows."
+}

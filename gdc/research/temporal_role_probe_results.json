@@ -1,0 +1,165 @@
+{
+  "scope": "12 deliberately authored development cases, three source pages, no model calls, no held-out validation",
+  "sources": {
+    "apple": {
+      "url": "https://www.apple.com/newsroom/2024/01/apple-vision-pro-available-in-the-us-on-february-2/",
+      "published": "2024-01-08",
+      "evidence": "Apple announced on January 8 that U.S. availability was scheduled for February 2, with preorders starting January 19."
+    },
+    "faa": {
+      "url": "https://www.faa.gov/newsroom/faa-halts-boeing-max-production-expansion-improve-quality-control-also-lays-out-extensive",
+      "published": "2024-01-24",
+      "evidence": "On January 24 the FAA approved an inspection process. Each grounded aircraft could return to service after successfully completing that process."
+    },
+    "nasa": {
+      "url": "https://www.nasa.gov/blogs/boeing-crew-flight-test/2024/08/24/nasa-decides-to-bring-starliner-spacecraft-back-to-earth-without-crew/",
+      "published": "2024-08-24",
+      "evidence": "NASA announced an uncrewed Starliner return on August 24. The astronauts were to return on Dragon; Starliner's departure was expected in early September."
+    }
+  },
+  "cases": [
+    {
+      "id": "A1",
+      "source": "apple",
+      "claim": "Apple announced the U.S. availability schedule on January 8.",
+      "date": "2024-01-08",
+      "oracle_role": "announcement",
+      "supported": true,
+      "error_class": "control"
+    },
+    {
+      "id": "A2",
+      "source": "apple",
+      "claim": "Apple scheduled U.S. availability for February 2.",
+      "date": "2024-02-02",
+      "oracle_role": "planned",
+      "supported": true,
+      "error_class": "control"
+    },
+    {
+      "id": "A3",
+      "source": "apple",
+      "claim": "Vision Pro was already available in U.S. stores on January 8.",
+      "date": "2024-01-08",
+      "oracle_role": "completed",
+      "supported": false,
+      "error_class": "announcement_as_occurrence"
+    },
+    {
+      "id": "A4",
+      "source": "apple",
+      "claim": "The January 8 announcement proves the February 2 launch subsequently happened.",
+      "date": "2024-02-02",
+      "oracle_role": "completed",
+      "supported": false,
+      "error_class": "plan_as_outcome"
+    },
+    {
+      "id": "F1",
+      "source": "faa",
+      "claim": "The FAA approved the inspection process on January 24.",
+      "date": "2024-01-24",
+      "oracle_role": "approval",
+      "supported": true,
+      "error_class": "control"
+    },
+    {
+      "id": "F2",
+      "source": "faa",
+      "claim": "Return was conditional on successful inspections; the statement does not establish each aircraft's return date.",
+      "date": null,
+      "oracle_role": "conditional",
+      "supported": true,
+      "error_class": "control"
+    },
+    {
+      "id": "F3",
+      "source": "faa",
+      "claim": "All grounded aircraft had completed inspections and returned on January 24.",
+      "date": "2024-01-24",
+      "oracle_role": "completed",
+      "supported": false,
+      "error_class": "condition_as_outcome"
+    },
+    {
+      "id": "F4",
+      "source": "faa",
+      "claim": "Boeing, rather than the FAA, approved the inspection process on January 24.",
+      "date": "2024-01-24",
+      "oracle_role": "approval",
+      "supported": false,
+      "error_class": "actor_substitution"
+    },
+    {
+      "id": "N1",
+      "source": "nasa",
+      "claim": "NASA announced its decision on August 24.",
+      "date": "2024-08-24",
+      "oracle_role": "decision",
+      "supported": true,
+      "error_class": "control"
+    },
+    {
+      "id": "N2",
+      "source": "nasa",
+      "claim": "Starliner's departure was expected in early September.",
+      "date": "2024-09",
+      "oracle_role": "planned",
+      "supported": true,
+      "error_class": "control"
+    },
+    {
+      "id": "N3",
+      "source": "nasa",
+      "claim": "Starliner returned to Earth on August 24.",
+      "date": "2024-08-24",
+      "oracle_role": "completed",
+      "supported": false,
+      "error_class": "decision_as_occurrence"
+    },
+    {
+      "id": "N4",
+      "source": "nasa",
+      "claim": "The announcement establishes September 1 as the exact departure day.",
+      "date": "2024-09-01",
+      "oracle_role": "planned",
+      "supported": false,
+      "error_class": "precision_inflation"
+    }
+  ],
+  "results": {
+    "publication_date_match": {
+      "tp": 2,
+      "fp": 2,
+      "fn": 4,
+      "tn": 4,
+      "precision": 0.5,
+      "recall": 0.3333333333333333
+    },
+    "reject_future_dates": {
+      "tp": 2,
+      "fp": 2,
+      "fn": 4,
+      "tn": 4,
+      "precision": 0.5,
+      "recall": 0.3333333333333333
+    },
+    "oracle_modality_only": {
+      "tp": 4,
+      "fp": 0,
+      "fn": 2,
+      "tn": 6,
+      "precision": 1.0,
+      "recall": 0.6666666666666666
+    }
+  },
+  "interpretation": "Oracle modality is diagnostic only. Its inputs contain hand labels unavailable to the other baselines. These scores do not establish model superiority or novelty.",
+  "unmeasured": [
+    "automatic extraction",
+    "generic LLM verification",
+    "historical source-version integrity",
+    "generalization",
+    "human label agreement",
+    "customer value"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "synthetic_contract_comparison_not_model_performance",
+  "formatter_sha256": "4ba7c59aea2bdfd2142742db279c92ae5ae55ba8fa8e23d377756cc7715a201a",
+  "input_sources": 12,
+  "character_budget": 6000,
+  "existing": {
+    "used_characters": 6000,
+    "complete_bodies": 6,
+    "partial_bodies": 1,
+    "source_cards_under_inspected_rule": 8,
+    "cards_with_no_body": 1
+  },
+  "whole_chunk_baseline": {
+    "used_characters": 5969,
+    "complete_bodies": 6,
+    "partial_bodies": 0,
+    "source_cards": 6,
+    "explicitly_omitted": 6,
+    "cards_with_no_body": 0
+  },
+  "interpretation": "The helper aligns cards with complete presented chunks. It may discard useful partial evidence and is not a demonstrated accuracy improvement."
+}

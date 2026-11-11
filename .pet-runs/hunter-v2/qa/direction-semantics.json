@@ -1,0 +1,26 @@
+{
+  "ok": true,
+  "reviewed_by": "independent-final-visual-qa",
+  "directions": [
+    {"direction":"000","verdict":"pass","expected":"up","observed":"up","reason":"Centered muzzle; both pupils are raised above the eye centers."},
+    {"direction":"022.5","verdict":"pass","expected":"up-right","observed":"up-right","reason":"Muzzle and nose shift screen-right while pupils and nose angle upward."},
+    {"direction":"045","verdict":"pass","expected":"up-right","observed":"up-right","reason":"Face projects screen-right; pupils sit high and the muzzle tilts upward."},
+    {"direction":"067.5","verdict":"pass","expected":"up-right","observed":"up-right","reason":"Near-profile muzzle points screen-right while the eye and nose axis rises."},
+    {"direction":"090","verdict":"pass","expected":"right","observed":"right","reason":"Muzzle and nose form an unmistakable screen-right profile with level gaze."},
+    {"direction":"112.5","verdict":"pass","expected":"down-right","observed":"down-right","reason":"Muzzle projects screen-right while pupils and lowered snout aim down."},
+    {"direction":"135","verdict":"pass","expected":"down-right","observed":"down-right","reason":"Nose remains right of head center while head pitch and pupils point downward."},
+    {"direction":"157.5","verdict":"pass","expected":"down-right","observed":"down-right","reason":"Lowered muzzle extends screen-right while eyes and nose strongly direct down."},
+    {"direction":"180","verdict":"pass","expected":"down","observed":"down","reason":"Centered frontal muzzle is lowered and both pupils sit below their eye centers."},
+    {"direction":"202.5","verdict":"pass","expected":"down-left","observed":"down-left","reason":"Nose and muzzle shift screen-left while pupils and snout angle down."},
+    {"direction":"225","verdict":"pass","expected":"down-left","observed":"down-left","reason":"Face projects screen-left while lowered pupils and muzzle indicate down."},
+    {"direction":"247.5","verdict":"pass","expected":"down-left","observed":"down-left","reason":"Near-profile nose points screen-left while gaze remains below level."},
+    {"direction":"270","verdict":"pass","expected":"left","observed":"left","reason":"Muzzle and nose form an unmistakable screen-left profile with level gaze."},
+    {"direction":"292.5","verdict":"pass","expected":"up-left","observed":"up-left","reason":"Muzzle projects screen-left while pupil and nose axis rise."},
+    {"direction":"315","verdict":"pass","expected":"up-left","observed":"up-left","reason":"Nose remains left of head center while eyes and muzzle tilt upward."},
+    {"direction":"337.5","verdict":"pass","expected":"up-left","observed":"up-left","reason":"Lifted muzzle extends screen-left while pupils and nose strongly direct up."}
+  ],
+  "review_warnings": [
+    "Metric transitions at 157.5->180 and 337.5->000 are visually acceptable pose-family changes without reversal, identity break, or registration pop.",
+    "Reported transparent rows at 000, 022.5, and 180 are intentional open space between upright ears, not holes inside a filled body."
+  ]
+}

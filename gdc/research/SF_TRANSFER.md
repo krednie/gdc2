@@ -1,0 +1,9 @@
+# Transfer check: what does “Pass” establish?
+
+Question: did the Board of Supervisors **finally pass version 10** of San Francisco's Shared Spaces ordinance, and when did the mayor approve it? Source: [official action history for file 210284](https://sfgov.legistar.com/LegislationDetail.aspx?GUID=0B886765-489F-4DD4-9F3D-DACCAE52F27F&ID=4959187). Retrospective, one selected measure, not a held-out accuracy study. Action dates, not first observable timestamps.
+
+Four version-10 rows appear in the 26-row action history. July 13: first reading passed as amended. July 15: planning department response received. July 20: final board passage. July 28: mayoral approval. The result column says Pass on both July 13 and July 20; it is blank on July 15 and July 28. A result-only filter therefore retains one premature candidate and discards a required one, even after the correct version is isolated. A first-hit notification for final passage would be seven calendar days early. Earlier versions and committee amendments introduce still more Pass rows but are not needed to make the point.
+
+The answer isn't just “add a version field.” Separate **body, procedural stage, and question**. NYC's positive action labels do not match SF's literally. A city-specific lookup can solve this example; do not count an after-the-fact mapping as successful generalization. Build a small reviewed dictionary per source, route unmapped labels to review, and store example/counterexample pairs under each mapping. Don't infer legal effective dates from these two questions.
+
+Next discriminating test: freeze this dictionary, pick another measure independently of its actions, and include questions for which no final passage or approval is observed at the cutoff. Measure missed changes, premature alerts and proportion of unmapped labels. A city with no accessible source is a coverage gap, not a no-change result.

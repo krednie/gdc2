@@ -1,0 +1,1230 @@
+{
+  "run_utc": "2026-11-03T15:34:32.684554+00:00",
+  "repository": "Alibaba-NLP/CHRONOS",
+  "revision": "4dadc9707c9a4f55476ac28259510fecc0d5c8a9",
+  "manifest_sha256": "d6919ce28667763175530f867fdc84b5af2d4c0801c85587afa717158ae09b9c",
+  "summary": {
+    "requested_topics": 50,
+    "fetched_topics": 50,
+    "failed_topics": 0,
+    "date_precision": {
+      "day": 1105,
+      "month": 24,
+      "invalid_or_other": 1
+    },
+    "reference_timelines": 50,
+    "rows": 1130,
+    "sentences": 2070,
+    "multi_sentence_rows": 579,
+    "rows_with_url_in_text": 0,
+    "shape_errors": 0,
+    "duplicate_dates": 0,
+    "order_inversions": 29,
+    "date_text_flags": 5
+  },
+  "failures": [],
+  "topics": [
+    {
+      "topic": "911_Memorial_Museum_2012.9.11",
+      "query": "9/11 Memorial Museum Controversy",
+      "topic_id": 0,
+      "url": "https://raw.githubusercontent.com/Alibaba-NLP/CHRONOS/4dadc9707c9a4f55476ac28259510fecc0d5c8a9/data/open/911_Memorial_Museum_2012.9.11/timelines.jsonl",
+      "sha256": "89e612016b6283373b64caa66135049c8c44b0fd56f771bb2a6fc44bad1baddf",
+      "reference_timelines": 1,
+      "rows": 11,
+      "sentences": 18,
+      "date_precision": {
+        "day": 11
+      },
+      "multi_sentence_rows": 4,
+      "rows_with_url_in_text": 0,
+      "duplicate_dates": [],
+      "order_inversions": [
+        [
+          0,
+          1,
+          "2012-09-11",
+          "2012-07-04"
+        ],
+        [
+          0,
+          2,
+          "2012-07-04",
+          "2012-02-01"
+        ],
+        [
+          0,
+          3,
+          "2012-02-01",
+          "2011-09-12"
+        ],
+        [
+          0,
+          4,
+          "2011-09-12",
+          "2011-09-08"
+        ],
+        [
+          0,
+          5,
+          "2011-09-08",
+          "2010-09-09"
+        ],
+        [
+          0,
+          6,
+          "2010-09-09",
+          "2010-02-24"
+        ],
+        [
+          0,
+          7,
+          "2010-02-24",
+          "2009-09-10"
+        ],
+        [
+          0,
+          8,
+          "2009-09-10",
+          "2006-04-22"
+        ],
+        [
+          0,
+          9,
+          "2006-04-22",
+          "2006-03-30"
+        ],
+        [
+          0,
+          10,
+          "2006-03-30",
+          "2005-01-05"
+        ]
+      ],
+      "shape_errors": [],
+      "date_text_flags": []
+    },
+    {
+      "topic": "Abortion_Ban_2021.12.11",
+      "query": "Texas ban abortions",
+      "topic_id": 1,
+      "url": "https://raw.githubusercontent.com/Alibaba-NLP/CHRONOS/4dadc9707c9a4f55476ac28259510fecc0d5c8a9/data/open/Abortion_Ban_2021.12.11/timelines.jsonl",
+      "sha256": "651f487d6ad74f7b795b3f4840a34507621e7fe5cb51a9fd232c9b24c4104e82",
+      "reference_timelines": 1,
+      "rows": 14,
+      "sentences": 22,
+      "date_precision": {
+        "day": 14
+      },
+      "multi_sentence_rows": 7,
+      "rows_with_url_in_text": 0,
+      "duplicate_dates": [],
+      "order_inversions": [],
+      "shape_errors": [],
+      "date_text_flags": []
+    },
+    {
+      "topic": "Apple_2024.6.5",
+      "query": "Apple's pivotal product announcements",
+      "topic_id": 2,
+      "url": "https://raw.githubusercontent.com/Alibaba-NLP/CHRONOS/4dadc9707c9a4f55476ac28259510fecc0d5c8a9/data/open/Apple_2024.6.5/timelines.jsonl",
+      "sha256": "396b6255714bc470d63a2f4ac0435b08b85346a26dd326119c367996ae77cb95",
+      "reference_timelines": 1,
+      "rows": 7,
+      "sentences": 24,
+      "date_precision": {
+        "day": 7
+      },
+      "multi_sentence_rows": 7,
+      "rows_with_url_in_text": 0,
+      "duplicate_dates": [],
+      "order_inversions": [],
+      "shape_errors": [],
+      "date_text_flags": [
+        {
+          "reference_index": 0,
+          "row_index": 2,
+          "sentence_index": 0,
+          "row_date": "2007-01-09",
+          "explicit_date": "2007-01-01",
+          "status": "candidate_only_not_adjudicated"
+        }
+      ]
+    },
+    {
+      "topic": "Astronauts_Stuck_2024.9.10",
+      "query": "Astronauts stuck in space",
+      "topic_id": 3,
+      "url": "https://raw.githubusercontent.com/Alibaba-NLP/CHRONOS/4dadc9707c9a4f55476ac28259510fecc0d5c8a9/data/open/Astronauts_Stuck_2024.9.10/timelines.jsonl",
+      "sha256": "c9a879159cb525780a2ac149ac293fda786ece4f64e4c5827f500107c3561009",
+      "reference_timelines": 1,
+      "rows": 17,
+      "sentences": 28,
+      "date_precision": {
+        "day": 16,
+        "month": 1
+      },
+      "multi_sentence_rows": 9,
+      "rows_with_url_in_text": 0,
+      "duplicate_dates": [],
+      "order_inversions": [],
+      "shape_errors": [],
+      "date_text_flags": []
+    },
+    {
+      "topic": "BP_Oil_Spill_2010.7.29",
+      "query": "BP oil spill",
+      "topic_id": 4,
+      "url": "https://raw.githubusercontent.com/Alibaba-NLP/CHRONOS/4dadc9707c9a4f55476ac28259510fecc0d5c8a9/data/open/BP_Oil_Spill_2010.7.29/timelines.jsonl",
+      "sha256": "44bfd6e5b3d01daf32ef108f7598a45b034de067263c233835ec0538372d4f80",
+      "reference_timelines": 1,
+      "rows": 15,
+      "sentences": 29,
+      "date_precision": {
+        "day": 15
+      },
+      "multi_sentence_rows": 12,
+      "rows_with_url_in_text": 0,
+      "duplicate_dates": [],
+      "order_inversions": [],
+      "shape_errors": [],
+      "date_text_flags": []
+    },
+    {
+      "topic": "Banking_Crisis_2023.5.1",
+      "query": "2023 Banking Crisis",
+      "topic_id": 5,
+      "url": "https://raw.githubusercontent.com/Alibaba-NLP/CHRONOS/4dadc9707c9a4f55476ac28259510fecc0d5c8a9/data/open/Banking_Crisis_2023.5.1/timelines.jsonl",
+      "sha256": "6544b82184e2d928062b4e3dfa20d9b315d79d528a32e62784f8b55e9f8d379a",
+      "reference_timelines": 1,
+      "rows": 24,
+      "sentences": 52,
+      "date_precision": {
+        "day": 24
+      },
+      "multi_sentence_rows": 16,
+      "rows_with_url_in_text": 0,
+      "duplicate_dates": [],
+      "order_inversions": [],
+      "shape_errors": [],
+      "date_text_flags": []
+    },
+    {
+      "topic": "Biden-Xi_Summit_2023.11.14",
+      "query": "Biden-Xi summit",
+      "topic_id": 6,
+      "url": "https://raw.githubusercontent.com/Alibaba-NLP/CHRONOS/4dadc9707c9a4f55476ac28259510fecc0d5c8a9/data/open/Biden-Xi_Summit_2023.11.14/timelines.jsonl",
+      "sha256": "3b3514fc8f8ab11a622df5077383749296626b8a625357d43156409be4b4b514",
+      "reference_timelines": 1,
+      "rows": 36,
+      "sentences": 48,
+      "date_precision": {
+        "day": 36
+      },
+      "multi_sentence_rows": 12,
+      "rows_with_url_in_text": 0,
+      "duplicate_dates": [],
+      "order_inversions": [],
+      "shape_errors": [],
+      "date_text_flags": []
+    },
+    {
+      "topic": "Biden_Classified_Documents_2023.1.22",
+      "query": "Biden classified documents incident",
+      "topic_id": 7,
+      "url": "https://raw.githubusercontent.com/Alibaba-NLP/CHRONOS/4dadc9707c9a4f55476ac28259510fecc0d5c8a9/data/open/Biden_Classified_Documents_2023.1.22/timelines.jsonl",
+      "sha256": "b5d2c0c582b855b55d9b223a933cb454ef058f47a67f6481eafed7c8000c2e0e",
+      "reference_timelines": 1,
+      "rows": 18,
+      "sentences": 36,
+      "date_precision": {
+        "day": 18
+      },
+      "multi_sentence_rows": 10,
+      "rows_with_url_in_text": 0,
+      "duplicate_dates": [],
+      "order_inversions": [],
+      "shape_errors": [],
+      "date_text_flags": []
+    },
+    {
+      "topic": "Biden_Election_Withdraw_2024.7.21",
+      "query": "Biden Withdraw from President Election",
+      "topic_id": 8,
+      "url": "https://raw.githubusercontent.com/Alibaba-NLP/CHRONOS/4dadc9707c9a4f55476ac28259510fecc0d5c8a9/data/open/Biden_Election_Withdraw_2024.7.21/timelines.jsonl",
+      "sha256": "beb873e2d5998643fb949cc7264a8dcba76ae0363cb0af36e9e22fdc5ed2c2cf",
+      "reference_timelines": 1,
+      "rows": 15,
+      "sentences": 30,
+      "date_precision": {
+        "day": 15
+      },
+      "multi_sentence_rows": 11,
+      "rows_with_url_in_text": 0,
+      "duplicate_dates": [],
+      "order_inversions": [],
+      "shape_errors": [],
+      "date_text_flags": []
+    },
+    {
+      "topic": "Boeing_737_Max_2024.7.8",
+      "query": "Boeing 737 Max",
+      "topic_id": 9,
+      "url": "https://raw.githubusercontent.com/Alibaba-NLP/CHRONOS/4dadc9707c9a4f55476ac28259510fecc0d5c8a9/data/open/Boeing_737_Max_2024.7.8/timelines.jsonl",
+      "sha256": "204d9a1189df199265f5469eb00b125a22623f94b1ce88ac8eb7b4d68d55d5de",
+      "reference_timelines": 1,
+      "rows": 37,
+      "sentences": 45,
+      "date_precision": {
+        "day": 37
+      },
+      "multi_sentence_rows": 8,
+      "rows_with_url_in_text": 0,
+      "duplicate_dates": [],
+      "order_inversions": [],
+      "shape_errors": [],
+      "date_text_flags": []
+    },
+    {
+      "topic": "Boris_Johnson_2022.7.7",
+      "query": "Boris Johnson's Career",
+      "topic_id": 10,
+      "url": "https://raw.githubusercontent.com/Alibaba-NLP/CHRONOS/4dadc9707c9a4f55476ac28259510fecc0d5c8a9/data/open/Boris_Johnson_2022.7.7/timelines.jsonl",
+      "sha256": "d9ff74a1befaa32e65b02b3d92e8830f9d7839a90eca73e116556ce0dd977248",
+      "reference_timelines": 1,
+      "rows": 35,
+      "sentences": 57,
+      "date_precision": {
+        "day": 35
+      },
+      "multi_sentence_rows": 16,
+      "rows_with_url_in_text": 0,
+      "duplicate_dates": [],
+      "order_inversions": [
+        [
+          0,
+          2,
+          "2008-06-04",
+          "2008-05-04"
+        ]
+      ],
+      "shape_errors": [],
+      "date_text_flags": []
+    },
+    {
+      "topic": "Brexit_2020.12.24",
+      "query": "Brexit",
+      "topic_id": 11,
+      "url": "https://raw.githubusercontent.com/Alibaba-NLP/CHRONOS/4dadc9707c9a4f55476ac28259510fecc0d5c8a9/data/open/Brexit_2020.12.24/timelines.jsonl",
+      "sha256": "1563241f33f0c30b737c4e00b4d4ec025961c0261228d4fbaa871f1fd0c201d9",
+      "reference_timelines": 1,
+      "rows": 40,
+      "sentences": 55,
+      "date_precision": {
+        "day": 40
+      },
+      "multi_sentence_rows": 14,
+      "rows_with_url_in_text": 0,
+      "duplicate_dates": [],
+      "order_inversions": [],
+      "shape_errors": [],
+      "date_text_flags": [
+        {
+          "reference_index": 0,
+          "row_index": 8,
+          "sentence_index": 0,
+          "row_date": "2017-03-29",
+          "explicit_date": "2019-03-29",
+          "status": "candidate_only_not_adjudicated"
+        }
+      ]
+    },
+    {
+      "topic": "British_Royal_2024.6.15",
+      "query": "British Royal events as Kate appears in public",
+      "topic_id": 12,
+      "url": "https://raw.githubusercontent.com/Alibaba-NLP/CHRONOS/4dadc9707c9a4f55476ac28259510fecc0d5c8a9/data/open/British_Royal_2024.6.15/timelines.jsonl",
+      "sha256": "31f8b815bf728020bc65037e51d5c9b0945b7904c3ba214d6f8772e3517a6e5a",
+      "reference_timelines": 1,
+      "rows": 26,
+      "sentences": 42,
+      "date_precision": {
+        "day": 26
+      },
+      "multi_sentence_rows": 13,
+      "rows_with_url_in_text": 0,
+      "duplicate_dates": [],
+      "order_inversions": [],
+      "shape_errors": [],
+      "date_text_flags": []
+    },
+    {
+      "topic": "Earthquake_2023.2.6",
+      "query": "Strongest Earthquakes over last 20 years",
+      "topic_id": 13,
+      "url": "https://raw.githubusercontent.com/Alibaba-NLP/CHRONOS/4dadc9707c9a4f55476ac28259510fecc0d5c8a9/data/open/Earthquake_2023.2.6/timelines.jsonl",
+      "sha256": "679b9ee4470b6ade38c39db9f2bf6b3aeb8913f410dd6a35999703b0a26d00f0",
+      "reference_timelines": 1,
+      "rows": 20,
+      "sentences": 24,
+      "date_precision": {
+        "day": 20
+      },
+      "multi_sentence_rows": 4,
+      "rows_with_url_in_text": 0,
+      "duplicate_dates": [],
+      "order_inversions": [
+        [
+          0,
+          6,
+          "2011-02-22",
+          "2010-02-27"
+        ]
+      ],
+      "shape_errors": [],
+      "date_text_flags": []
+    },
+    {
+      "topic": "FTX_Collapse_2024.5.9",
+      "query": "FTX Collapse",
+      "topic_id": 14,
+      "url": "https://raw.githubusercontent.com/Alibaba-NLP/CHRONOS/4dadc9707c9a4f55476ac28259510fecc0d5c8a9/data/open/FTX_Collapse_2024.5.9/timelines.jsonl",
+      "sha256": "5a2cae19adddc96e1ee77e26b353547ed87ff736a5bec21e1ff850d255320235",
+      "reference_timelines": 1,
+      "rows": 18,
+      "sentences": 33,
+      "date_precision": {
+        "day": 18
+      },
+      "multi_sentence_rows": 8,
+      "rows_with_url_in_text": 0,
+      "duplicate_dates": [],
+      "order_inversions": [],
+      "shape_errors": [],
+      "date_text_flags": []
+    },
+    {
+      "topic": "Ferguson_Unrest_2014.8.20",
+      "query": "Ferguson Unrest",
+      "topic_id": 15,
+      "url": "https://raw.githubusercontent.com/Alibaba-NLP/CHRONOS/4dadc9707c9a4f55476ac28259510fecc0d5c8a9/data/open/Ferguson_Unrest_2014.8.20/timelines.jsonl",
+      "sha256": "07cb41fcd5065a5d3b1a96dcd999d20cb7bb10bcb02e8d43f55a8d596a3f5fc0",
+      "reference_timelines": 1,
+      "rows": 12,
+      "sentences": 58,
+      "date_precision": {
+        "day": 12
+      },
+      "multi_sentence_rows": 11,
+      "rows_with_url_in_text": 0,
+      "duplicate_dates": [],
+      "order_inversions": [],
+      "shape_errors": [],
+      "date_text_flags": []
+    },
+    {
+      "topic": "George_Floyd_2022.2.22",
+      "query": "George Floyd's arrest and murder",
+      "topic_id": 16,
+      "url": "https://raw.githubusercontent.com/Alibaba-NLP/CHRONOS/4dadc9707c9a4f55476ac28259510fecc0d5c8a9/data/open/George_Floyd_2022.2.22/timelines.jsonl",
+      "sha256": "34c66b1d6baf72510a375c540e4b94a0f52753b5071e8bc83f47351684c22630",
+      "reference_timelines": 1,
+      "rows": 41,
+      "sentences": 62,
+      "date_precision": {
+        "day": 41
+      },
+      "multi_sentence_rows": 13,
+      "rows_with_url_in_text": 0,
+      "duplicate_dates": [],
+      "order_inversions": [],
+      "shape_errors": [],
+      "date_text_flags": []
+    },
+    {
+      "topic": "Gilgo_Beach_Killings_2024.1.17",
+      "query": "Gilgo Beach killings",
+      "topic_id": 17,
+      "url": "https://raw.githubusercontent.com/Alibaba-NLP/CHRONOS/4dadc9707c9a4f55476ac28259510fecc0d5c8a9/data/open/Gilgo_Beach_Killings_2024.1.17/timelines.jsonl",
+      "sha256": "5a42ccd4771e73396e3d6b613c512e933c24f22bd75ee5ea234219abf1dfcc1b",
+      "reference_timelines": 1,
+      "rows": 20,
+      "sentences": 45,
+      "date_precision": {
+        "day": 18,
+        "month": 2
+      },
+      "multi_sentence_rows": 15,
+      "rows_with_url_in_text": 0,
+      "duplicate_dates": [],
+      "order_inversions": [],
+      "shape_errors": [],
+      "date_text_flags": []
+    },
+    {
+      "topic": "Greek_Debt_Crisis_2015.6.25",
+      "query": "Greek Debt Crisis",
+      "topic_id": 18,
+      "url": "https://raw.githubusercontent.com/Alibaba-NLP/CHRONOS/4dadc9707c9a4f55476ac28259510fecc0d5c8a9/data/open/Greek_Debt_Crisis_2015.6.25/timelines.jsonl",
+      "sha256": "36c9e90982ba7d9ab9f4e5646576dbd96c43de442d632facf0b7117225f52427",
+      "reference_timelines": 1,
+      "rows": 20,
+      "sentences": 42,
+      "date_precision": {
+        "day": 20
+      },
+      "multi_sentence_rows": 16,
+      "rows_with_url_in_text": 0,
+      "duplicate_dates": [],
+      "order_inversions": [],
+      "shape_errors": [],
+      "date_text_flags": []
+    },
+    {
+      "topic": "Grenfell_Tower_Fire_2024.9.4",
+      "query": "Grenfell Tower Fire",
+      "topic_id": 19,
+      "url": "https://raw.githubusercontent.com/Alibaba-NLP/CHRONOS/4dadc9707c9a4f55476ac28259510fecc0d5c8a9/data/open/Grenfell_Tower_Fire_2024.9.4/timelines.jsonl",
+      "sha256": "d97f5ab98f181cb405975bbb02ea71b908bfdcd808c0bd278d191c25b9074671",
+      "reference_timelines": 1,
+      "rows": 23,
+      "sentences": 41,
+      "date_precision": {
+        "day": 23
+      },
+      "multi_sentence_rows": 12,
+      "rows_with_url_in_text": 0,
+      "duplicate_dates": [],
+      "order_inversions": [],
+      "shape_errors": [],
+      "date_text_flags": []
+    },
+    {
+      "topic": "Hillsborough_Disaster_2024.4.15",
+      "query": "Hillsborough disaster",
+      "topic_id": 20,
+      "url": "https://raw.githubusercontent.com/Alibaba-NLP/CHRONOS/4dadc9707c9a4f55476ac28259510fecc0d5c8a9/data/open/Hillsborough_Disaster_2024.4.15/timelines.jsonl",
+      "sha256": "5d75767d90fac669558f04cfc49a63ac21c746c579f267f5af2f389b11c7a916",
+      "reference_timelines": 1,
+      "rows": 29,
+      "sentences": 68,
+      "date_precision": {
+        "day": 29
+      },
+      "multi_sentence_rows": 20,
+      "rows_with_url_in_text": 0,
+      "duplicate_dates": [],
+      "order_inversions": [],
+      "shape_errors": [],
+      "date_text_flags": []
+    },
+    {
+      "topic": "Huw_Edwards_Scandal_2024.8.9",
+      "query": "Huw Edwards Scandal",
+      "topic_id": 21,
+      "url": "https://raw.githubusercontent.com/Alibaba-NLP/CHRONOS/4dadc9707c9a4f55476ac28259510fecc0d5c8a9/data/open/Huw_Edwards_Scandal_2024.8.9/timelines.jsonl",
+      "sha256": "448bd15bc01364f51e2de1316bd223b154e86a853fc22d42a616c61193c013c8",
+      "reference_timelines": 1,
+      "rows": 16,
+      "sentences": 53,
+      "date_precision": {
+        "day": 16
+      },
+      "multi_sentence_rows": 12,
+      "rows_with_url_in_text": 0,
+      "duplicate_dates": [],
+      "order_inversions": [],
+      "shape_errors": [],
+      "date_text_flags": [
+        {
+          "reference_index": 0,
+          "row_index": 0,
+          "sentence_index": 3,
+          "row_date": "2020-12-16",
+          "explicit_date": "2021-02-02",
+          "status": "candidate_only_not_adjudicated"
+        }
+      ]
+    },
+    {
+      "topic": "Iran-Iraq_2010.2.14",
+      "query": "Iran-Iraq War",
+      "topic_id": 22,
+      "url": "https://raw.githubusercontent.com/Alibaba-NLP/CHRONOS/4dadc9707c9a4f55476ac28259510fecc0d5c8a9/data/open/Iran-Iraq_2010.2.14/timelines.jsonl",
+      "sha256": "d9d45155d29fb8ecd1dc5cfb80d42af02f618d35bdf7929ac6e1070e0459ccf6",
+      "reference_timelines": 1,
+      "rows": 7,
+      "sentences": 11,
+      "date_precision": {
+        "day": 7
+      },
+      "multi_sentence_rows": 3,
+      "rows_with_url_in_text": 0,
+      "duplicate_dates": [],
+      "order_inversions": [],
+      "shape_errors": [],
+      "date_text_flags": []
+    },
+    {
+      "topic": "Iran-Israel_2024.4.14",
+      "query": "2024 Iran-Israel Conflict",
+      "topic_id": 23,
+      "url": "https://raw.githubusercontent.com/Alibaba-NLP/CHRONOS/4dadc9707c9a4f55476ac28259510fecc0d5c8a9/data/open/Iran-Israel_2024.4.14/timelines.jsonl",
+      "sha256": "0fd29a267a15929064a4c6b8920047977205b6d4426ea4f4519d9f306213d3b2",
+      "reference_timelines": 1,
+      "rows": 5,
+      "sentences": 11,
+      "date_precision": {
+        "day": 5
+      },
+      "multi_sentence_rows": 4,
+      "rows_with_url_in_text": 0,
+      "duplicate_dates": [],
+      "order_inversions": [],
+      "shape_errors": [],
+      "date_text_flags": []
+    },
+    {
+      "topic": "Iraq_War_2023.3.7",
+      "query": "Iraq War",
+      "topic_id": 24,
+      "url": "https://raw.githubusercontent.com/Alibaba-NLP/CHRONOS/4dadc9707c9a4f55476ac28259510fecc0d5c8a9/data/open/Iraq_War_2023.3.7/timelines.jsonl",
+      "sha256": "20c593ac41c6ee9dcd9a3b665f4146782343c073e838f5beb74000305f839ca4",
+      "reference_timelines": 1,
+      "rows": 42,
+      "sentences": 115,
+      "date_precision": {
+        "day": 42
+      },
+      "multi_sentence_rows": 41,
+      "rows_with_url_in_text": 0,
+      "duplicate_dates": [],
+      "order_inversions": [],
+      "shape_errors": [],
+      "date_text_flags": [
+        {
+          "reference_index": 0,
+          "row_index": 31,
+          "sentence_index": 2,
+          "row_date": "2008-09-01",
+          "explicit_date": "2009-01-31",
+          "status": "candidate_only_not_adjudicated"
+        }
+      ]
+    },
+    {
+      "topic": "Islamic_State_2019.10.27",
+      "query": "Islamic State",
+      "topic_id": 25,
+      "url": "https://raw.githubusercontent.com/Alibaba-NLP/CHRONOS/4dadc9707c9a4f55476ac28259510fecc0d5c8a9/data/open/Islamic_State_2019.10.27/timelines.jsonl",
+      "sha256": "8c14ab09874ae012bf56587668a6606e622e2e8b4168d1844abdcd05982cfb20",
+      "reference_timelines": 1,
+      "rows": 29,
+      "sentences": 36,
+      "date_precision": {
+        "day": 29
+      },
+      "multi_sentence_rows": 7,
+      "rows_with_url_in_text": 0,
+      "duplicate_dates": [],
+      "order_inversions": [],
+      "shape_errors": [],
+      "date_text_flags": []
+    },
+    {
+      "topic": "Ja_Morant_2023.6.16",
+      "query": "Ja Morant's Career",
+      "topic_id": 26,
+      "url": "https://raw.githubusercontent.com/Alibaba-NLP/CHRONOS/4dadc9707c9a4f55476ac28259510fecc0d5c8a9/data/open/Ja_Morant_2023.6.16/timelines.jsonl",
+      "sha256": "be1c05e9c0506c34e75579c251d46a6d032c65f760f2e8e190d9536b414c8aba",
+      "reference_timelines": 1,
+      "rows": 17,
+      "sentences": 26,
+      "date_precision": {
+        "day": 17
+      },
+      "multi_sentence_rows": 7,
+      "rows_with_url_in_text": 0,
+      "duplicate_dates": [],
+      "order_inversions": [
+        [
+          0,
+          1,
+          "2023-06-16",
+          "2023-05-24"
+        ],
+        [
+          0,
+          2,
+          "2023-05-24",
+          "2023-05-14"
+        ],
+        [
+          0,
+          3,
+          "2023-05-14",
+          "2023-05-10"
+        ],
+        [
+          0,
+          4,
+          "2023-05-10",
+          "2023-04-28"
+        ],
+        [
+          0,
+          5,
+          "2023-04-28",
+          "2023-04-19"
+        ],
+        [
+          0,
+          6,
+          "2023-04-19",
+          "2023-04-12"
+        ],
+        [
+          0,
+          7,
+          "2023-04-12",
+          "2023-03-15"
+        ],
+        [
+          0,
+          8,
+          "2023-03-15",
+          "2023-03-04"
+        ],
+        [
+          0,
+          9,
+          "2023-03-04",
+          "2022-07-26"
+        ],
+        [
+          0,
+          10,
+          "2022-07-26",
+          "2022-07-01"
+        ],
+        [
+          0,
+          11,
+          "2022-07-01",
+          "2022-05-13"
+        ],
+        [
+          0,
+          12,
+          "2022-05-13",
+          "2022-04-25"
+        ],
+        [
+          0,
+          13,
+          "2022-04-25",
+          "2022-01-27"
+        ],
+        [
+          0,
+          14,
+          "2022-01-27",
+          "2021-05-21"
+        ],
+        [
+          0,
+          15,
+          "2021-05-21",
+          "2020-09-03"
+        ],
+        [
+          0,
+          16,
+          "2020-09-03",
+          "2019-06-20"
+        ]
+      ],
+      "shape_errors": [],
+      "date_text_flags": []
+    },
+    {
+      "topic": "Ken_Paxton_Impeachment_2023.5.30",
+      "query": "Impeachment of Ken Paxton",
+      "topic_id": 27,
+      "url": "https://raw.githubusercontent.com/Alibaba-NLP/CHRONOS/4dadc9707c9a4f55476ac28259510fecc0d5c8a9/data/open/Ken_Paxton_Impeachment_2023.5.30/timelines.jsonl",
+      "sha256": "9f2c3240dd986631ed3b8029de44ac10c452ac2ec89f3654c39d78cb6286db05",
+      "reference_timelines": 1,
+      "rows": 8,
+      "sentences": 26,
+      "date_precision": {
+        "day": 8
+      },
+      "multi_sentence_rows": 6,
+      "rows_with_url_in_text": 0,
+      "duplicate_dates": [],
+      "order_inversions": [],
+      "shape_errors": [],
+      "date_text_flags": []
+    },
+    {
+      "topic": "King_Charles_Health_2024.2.11",
+      "query": "King Charles Health Issue",
+      "topic_id": 28,
+      "url": "https://raw.githubusercontent.com/Alibaba-NLP/CHRONOS/4dadc9707c9a4f55476ac28259510fecc0d5c8a9/data/open/King_Charles_Health_2024.2.11/timelines.jsonl",
+      "sha256": "c5ae5121b6f2bbd8705de6828868313adcd5690c90dbaae773e61314c5a61d4e",
+      "reference_timelines": 1,
+      "rows": 10,
+      "sentences": 14,
+      "date_precision": {
+        "day": 10
+      },
+      "multi_sentence_rows": 4,
+      "rows_with_url_in_text": 0,
+      "duplicate_dates": [],
+      "order_inversions": [],
+      "shape_errors": [],
+      "date_text_flags": []
+    },
+    {
+      "topic": "Kobe_Helicopter_2020.2.24",
+      "query": "Kobe Bryant helicopter crash",
+      "topic_id": 29,
+      "url": "https://raw.githubusercontent.com/Alibaba-NLP/CHRONOS/4dadc9707c9a4f55476ac28259510fecc0d5c8a9/data/open/Kobe_Helicopter_2020.2.24/timelines.jsonl",
+      "sha256": "4195a8c202f4788f6ee3fa788ad8bdda31817ef1e441f74bad98b90834f19953",
+      "reference_timelines": 1,
+      "rows": 8,
+      "sentences": 17,
+      "date_precision": {
+        "day": 8
+      },
+      "multi_sentence_rows": 6,
+      "rows_with_url_in_text": 0,
+      "duplicate_dates": [],
+      "order_inversions": [],
+      "shape_errors": [],
+      "date_text_flags": []
+    },
+    {
+      "topic": "MH370_Search_2024.3.5",
+      "query": "The search for MH370",
+      "topic_id": 30,
+      "url": "https://raw.githubusercontent.com/Alibaba-NLP/CHRONOS/4dadc9707c9a4f55476ac28259510fecc0d5c8a9/data/open/MH370_Search_2024.3.5/timelines.jsonl",
+      "sha256": "61f46f0530fda4161aa3426e4d0dd4b2bf220fc5d3d6a4b58694e4221c443a63",
+      "reference_timelines": 1,
+      "rows": 26,
+      "sentences": 55,
+      "date_precision": {
+        "day": 25,
+        "month": 1
+      },
+      "multi_sentence_rows": 19,
+      "rows_with_url_in_text": 0,
+      "duplicate_dates": [],
+      "order_inversions": [],
+      "shape_errors": [],
+      "date_text_flags": []
+    },
+    {
+      "topic": "Matthew_Perry_Death_2024.8.16",
+      "query": "Matthew Perry Death",
+      "topic_id": 31,
+      "url": "https://raw.githubusercontent.com/Alibaba-NLP/CHRONOS/4dadc9707c9a4f55476ac28259510fecc0d5c8a9/data/open/Matthew_Perry_Death_2024.8.16/timelines.jsonl",
+      "sha256": "a1dc89a805a53558c68e2c28e8ef4a674455eeb60b005491179986ec424bb084",
+      "reference_timelines": 1,
+      "rows": 15,
+      "sentences": 29,
+      "date_precision": {
+        "day": 15
+      },
+      "multi_sentence_rows": 10,
+      "rows_with_url_in_text": 0,
+      "duplicate_dates": [],
+      "order_inversions": [],
+      "shape_errors": [],
+      "date_text_flags": []
+    },
+    {
+      "topic": "Messi_Inter_Miami_2023.7.16",
+      "query": "Inter Miami sign Lionel Messi",
+      "topic_id": 32,
+      "url": "https://raw.githubusercontent.com/Alibaba-NLP/CHRONOS/4dadc9707c9a4f55476ac28259510fecc0d5c8a9/data/open/Messi_Inter_Miami_2023.7.16/timelines.jsonl",
+      "sha256": "b671931d409ed7b8b76d66e4a2d97edb0d1811f84f7b441381c9bd2b9eec4a23",
+      "reference_timelines": 1,
+      "rows": 11,
+      "sentences": 16,
+      "date_precision": {
+        "day": 10,
+        "month": 1
+      },
+      "multi_sentence_rows": 5,
+      "rows_with_url_in_text": 0,
+      "duplicate_dates": [],
+      "order_inversions": [],
+      "shape_errors": [],
+      "date_text_flags": []
+    },
+    {
+      "topic": "NBA_Leading_Scorers_2023.2.8",
+      "query": "NBA all-time leading scorers",
+      "topic_id": 33,
+      "url": "https://raw.githubusercontent.com/Alibaba-NLP/CHRONOS/4dadc9707c9a4f55476ac28259510fecc0d5c8a9/data/open/NBA_Leading_Scorers_2023.2.8/timelines.jsonl",
+      "sha256": "c59baa5cf4c9997f69741406dbfdb8f9881b4a091eac1b9c9cffd32424805cfe",
+      "reference_timelines": 1,
+      "rows": 33,
+      "sentences": 51,
+      "date_precision": {
+        "day": 33
+      },
+      "multi_sentence_rows": 13,
+      "rows_with_url_in_text": 0,
+      "duplicate_dates": [],
+      "order_inversions": [],
+      "shape_errors": [],
+      "date_text_flags": []
+    },
+    {
+      "topic": "Pakistan_Parliamentary_Election_2024.2.8",
+      "query": "Pakistan's parliamentary election",
+      "topic_id": 34,
+      "url": "https://raw.githubusercontent.com/Alibaba-NLP/CHRONOS/4dadc9707c9a4f55476ac28259510fecc0d5c8a9/data/open/Pakistan_Parliamentary_Election_2024.2.8/timelines.jsonl",
+      "sha256": "0c82f26525d1ccbfc90771147898e5e5df82f3de7cf5098b908d4f88fe8d0a40",
+      "reference_timelines": 1,
+      "rows": 25,
+      "sentences": 39,
+      "date_precision": {
+        "day": 25
+      },
+      "multi_sentence_rows": 13,
+      "rows_with_url_in_text": 0,
+      "duplicate_dates": [],
+      "order_inversions": [],
+      "shape_errors": [],
+      "date_text_flags": []
+    },
+    {
+      "topic": "Petraeus_Scandal_2015.4.23",
+      "query": "Petraeus-Broadwell Scandal",
+      "topic_id": 35,
+      "url": "https://raw.githubusercontent.com/Alibaba-NLP/CHRONOS/4dadc9707c9a4f55476ac28259510fecc0d5c8a9/data/open/Petraeus_Scandal_2015.4.23/timelines.jsonl",
+      "sha256": "a4c838e9773b6352cd4c9b3835ed9a9038946b7f8abc288c52cd79899a8cd3e7",
+      "reference_timelines": 1,
+      "rows": 15,
+      "sentences": 21,
+      "date_precision": {
+        "day": 14,
+        "month": 1
+      },
+      "multi_sentence_rows": 6,
+      "rows_with_url_in_text": 0,
+      "duplicate_dates": [],
+      "order_inversions": [],
+      "shape_errors": [],
+      "date_text_flags": []
+    },
+    {
+      "topic": "Pope_Benedict_XVI_2023.1.2",
+      "query": "Pope Emeritus Benedict XVI",
+      "topic_id": 36,
+      "url": "https://raw.githubusercontent.com/Alibaba-NLP/CHRONOS/4dadc9707c9a4f55476ac28259510fecc0d5c8a9/data/open/Pope_Benedict_XVI_2023.1.2/timelines.jsonl",
+      "sha256": "53bd640bdad81bed9a3458474d03879a8ea2b5fc000f25809bb1d5b196667978",
+      "reference_timelines": 1,
+      "rows": 47,
+      "sentences": 55,
+      "date_precision": {
+        "day": 46,
+        "month": 1
+      },
+      "multi_sentence_rows": 8,
+      "rows_with_url_in_text": 0,
+      "duplicate_dates": [],
+      "order_inversions": [],
+      "shape_errors": [],
+      "date_text_flags": [
+        {
+          "reference_index": 0,
+          "row_index": 24,
+          "sentence_index": 0,
+          "row_date": "2009-06-29",
+          "explicit_date": "2009-07-07",
+          "status": "candidate_only_not_adjudicated"
+        }
+      ]
+    },
+    {
+      "topic": "Russian-Ukraine_2023.2.19",
+      "query": "Russian Ukraine Crisis",
+      "topic_id": 37,
+      "url": "https://raw.githubusercontent.com/Alibaba-NLP/CHRONOS/4dadc9707c9a4f55476ac28259510fecc0d5c8a9/data/open/Russian-Ukraine_2023.2.19/timelines.jsonl",
+      "sha256": "cb4e411e83e730b64d2f74be17af6291d47b12d4b3c76cab34b1de3f0c0f368d",
+      "reference_timelines": 1,
+      "rows": 24,
+      "sentences": 38,
+      "date_precision": {
+        "day": 23,
+        "invalid_or_other": 1
+      },
+      "multi_sentence_rows": 11,
+      "rows_with_url_in_text": 0,
+      "duplicate_dates": [],
+      "order_inversions": [],
+      "shape_errors": [],
+      "date_text_flags": []
+    },
+    {
+      "topic": "Rwanda_Plan_2024.4.22",
+      "query": "Rwanda plan",
+      "topic_id": 38,
+      "url": "https://raw.githubusercontent.com/Alibaba-NLP/CHRONOS/4dadc9707c9a4f55476ac28259510fecc0d5c8a9/data/open/Rwanda_Plan_2024.4.22/timelines.jsonl",
+      "sha256": "fc32f5298b009c600adcf1e595ab63e768af28dc3d014a4e67e90b7423f29508",
+      "reference_timelines": 1,
+      "rows": 9,
+      "sentences": 22,
+      "date_precision": {
+        "day": 9
+      },
+      "multi_sentence_rows": 8,
+      "rows_with_url_in_text": 0,
+      "duplicate_dates": [],
+      "order_inversions": [],
+      "shape_errors": [],
+      "date_text_flags": []
+    },
+    {
+      "topic": "SNP_2024.6.18",
+      "query": "SNP finances controversy",
+      "topic_id": 39,
+      "url": "https://raw.githubusercontent.com/Alibaba-NLP/CHRONOS/4dadc9707c9a4f55476ac28259510fecc0d5c8a9/data/open/SNP_2024.6.18/timelines.jsonl",
+      "sha256": "c885d8d9cc52548f6839eac7cb0294f4fde93531f78e0869fad30bb53fce7ec8",
+      "reference_timelines": 1,
+      "rows": 23,
+      "sentences": 23,
+      "date_precision": {
+        "day": 14,
+        "month": 9
+      },
+      "multi_sentence_rows": 0,
+      "rows_with_url_in_text": 0,
+      "duplicate_dates": [],
+      "order_inversions": [],
+      "shape_errors": [],
+      "date_text_flags": []
+    },
+    {
+      "topic": "Taliban_2024.8.14",
+      "query": "Taliban returned to power",
+      "topic_id": 40,
+      "url": "https://raw.githubusercontent.com/Alibaba-NLP/CHRONOS/4dadc9707c9a4f55476ac28259510fecc0d5c8a9/data/open/Taliban_2024.8.14/timelines.jsonl",
+      "sha256": "a817e6547eec44d588aaf7278ccd23aee5b6a3130d70b3c29a1398d6106249cd",
+      "reference_timelines": 1,
+      "rows": 24,
+      "sentences": 39,
+      "date_precision": {
+        "day": 24
+      },
+      "multi_sentence_rows": 13,
+      "rows_with_url_in_text": 0,
+      "duplicate_dates": [],
+      "order_inversions": [],
+      "shape_errors": [],
+      "date_text_flags": []
+    },
+    {
+      "topic": "Trump_Hush_Money_Trial_2024.5.13",
+      "query": "Trump's Hush Money Trial",
+      "topic_id": 41,
+      "url": "https://raw.githubusercontent.com/Alibaba-NLP/CHRONOS/4dadc9707c9a4f55476ac28259510fecc0d5c8a9/data/open/Trump_Hush_Money_Trial_2024.5.13/timelines.jsonl",
+      "sha256": "ad0300f60bf7a6069d31e38032d5b6a1a3ca4f2001bbfdbfdb71f8c117d1af82",
+      "reference_timelines": 1,
+      "rows": 43,
+      "sentences": 74,
+      "date_precision": {
+        "day": 35,
+        "month": 8
+      },
+      "multi_sentence_rows": 19,
+      "rows_with_url_in_text": 0,
+      "duplicate_dates": [],
+      "order_inversions": [
+        [
+          0,
+          20,
+          "2017-01-20",
+          "2017-01"
+        ]
+      ],
+      "shape_errors": [],
+      "date_text_flags": []
+    },
+    {
+      "topic": "Trump_Indictment_2023.8.15",
+      "query": "Donald Trump's indictment in Georgia",
+      "topic_id": 42,
+      "url": "https://raw.githubusercontent.com/Alibaba-NLP/CHRONOS/4dadc9707c9a4f55476ac28259510fecc0d5c8a9/data/open/Trump_Indictment_2023.8.15/timelines.jsonl",
+      "sha256": "8a868b55adf93144f3123a4ab82f6be450cf58651f98d063ebc2bd1ea336c65a",
+      "reference_timelines": 1,
+      "rows": 52,
+      "sentences": 77,
+      "date_precision": {
+        "day": 52
+      },
+      "multi_sentence_rows": 19,
+      "rows_with_url_in_text": 0,
+      "duplicate_dates": [],
+      "order_inversions": [],
+      "shape_errors": [],
+      "date_text_flags": []
+    },
+    {
+      "topic": "Trump_Ukraine_2019.10.5",
+      "query": "Donald Trump and Ukraine",
+      "topic_id": 43,
+      "url": "https://raw.githubusercontent.com/Alibaba-NLP/CHRONOS/4dadc9707c9a4f55476ac28259510fecc0d5c8a9/data/open/Trump_Ukraine_2019.10.5/timelines.jsonl",
+      "sha256": "ca7ea96e87a7b8e3a41fc8c3b6964854ccf9dd65650a26d5dfc7cd48a3f0d2e7",
+      "reference_timelines": 1,
+      "rows": 22,
+      "sentences": 34,
+      "date_precision": {
+        "day": 22
+      },
+      "multi_sentence_rows": 6,
+      "rows_with_url_in_text": 0,
+      "duplicate_dates": [],
+      "order_inversions": [],
+      "shape_errors": [],
+      "date_text_flags": []
+    },
+    {
+      "topic": "Turkey_Attacks_2016.2.17",
+      "query": "Turkey attacks",
+      "topic_id": 44,
+      "url": "https://raw.githubusercontent.com/Alibaba-NLP/CHRONOS/4dadc9707c9a4f55476ac28259510fecc0d5c8a9/data/open/Turkey_Attacks_2016.2.17/timelines.jsonl",
+      "sha256": "7c585ece9c38d598af5691e84f680ac8061f5b3808d32de89ff9226ab04ebd36",
+      "reference_timelines": 1,
+      "rows": 8,
+      "sentences": 26,
+      "date_precision": {
+        "day": 8
+      },
+      "multi_sentence_rows": 8,
+      "rows_with_url_in_text": 0,
+      "duplicate_dates": [],
+      "order_inversions": [],
+      "shape_errors": [],
+      "date_text_flags": []
+    },
+    {
+      "topic": "Twitter_Acquisition_2022.10.28",
+      "query": "Acquisition of Twitter",
+      "topic_id": 45,
+      "url": "https://raw.githubusercontent.com/Alibaba-NLP/CHRONOS/4dadc9707c9a4f55476ac28259510fecc0d5c8a9/data/open/Twitter_Acquisition_2022.10.28/timelines.jsonl",
+      "sha256": "9cb5944bb51fa413c4043299d11a9738c264985901fbe3e63e83807d0379679a",
+      "reference_timelines": 1,
+      "rows": 25,
+      "sentences": 37,
+      "date_precision": {
+        "day": 25
+      },
+      "multi_sentence_rows": 11,
+      "rows_with_url_in_text": 0,
+      "duplicate_dates": [],
+      "order_inversions": [],
+      "shape_errors": [],
+      "date_text_flags": []
+    },
+    {
+      "topic": "Tyre_Nichols_2023.1.28",
+      "query": "Tyre Nichols' arrest",
+      "topic_id": 46,
+      "url": "https://raw.githubusercontent.com/Alibaba-NLP/CHRONOS/4dadc9707c9a4f55476ac28259510fecc0d5c8a9/data/open/Tyre_Nichols_2023.1.28/timelines.jsonl",
+      "sha256": "92cb0785bea6e8f55b868ef8b30f8bd865f9e856a71c4a4cc8bbfccb74268ded",
+      "reference_timelines": 1,
+      "rows": 13,
+      "sentences": 33,
+      "date_precision": {
+        "day": 13
+      },
+      "multi_sentence_rows": 10,
+      "rows_with_url_in_text": 0,
+      "duplicate_dates": [],
+      "order_inversions": [],
+      "shape_errors": [],
+      "date_text_flags": []
+    },
+    {
+      "topic": "U.S.-Iran_2023.9.16",
+      "query": "U.S.-Iran Relations",
+      "topic_id": 47,
+      "url": "https://raw.githubusercontent.com/Alibaba-NLP/CHRONOS/4dadc9707c9a4f55476ac28259510fecc0d5c8a9/data/open/U.S.-Iran_2023.9.16/timelines.jsonl",
+      "sha256": "b853fd069a7298f37024e793690bdd300c56a2b7865543d06c272b03c589b9e7",
+      "reference_timelines": 1,
+      "rows": 34,
+      "sentences": 89,
+      "date_precision": {
+        "day": 34
+      },
+      "multi_sentence_rows": 28,
+      "rows_with_url_in_text": 0,
+      "duplicate_dates": [],
+      "order_inversions": [],
+      "shape_errors": [],
+      "date_text_flags": []
+    },
+    {
+      "topic": "U.S.-Syria_2017.4.7",
+      "query": "U.S. Response to Syria's Civil War",
+      "topic_id": 48,
+      "url": "https://raw.githubusercontent.com/Alibaba-NLP/CHRONOS/4dadc9707c9a4f55476ac28259510fecc0d5c8a9/data/open/U.S.-Syria_2017.4.7/timelines.jsonl",
+      "sha256": "c135b7413e7e27a76a9adbf8d9d0072242b6d3910ba65082e528af5216899442",
+      "reference_timelines": 1,
+      "rows": 18,
+      "sentences": 30,
+      "date_precision": {
+        "day": 18
+      },
+      "multi_sentence_rows": 8,
+      "rows_with_url_in_text": 0,
+      "duplicate_dates": [],
+      "order_inversions": [],
+      "shape_errors": [],
+      "date_text_flags": []
+    },
+    {
+      "topic": "Ukraine_2022.2.22",
+      "query": "Post-Independence Ukraine",
+      "topic_id": 49,
+      "url": "https://raw.githubusercontent.com/Alibaba-NLP/CHRONOS/4dadc9707c9a4f55476ac28259510fecc0d5c8a9/data/open/Ukraine_2022.2.22/timelines.jsonl",
+      "sha256": "48d80414e46ba1f0df442d81b9ce1d38b0b57368ea784fb01d33842d0cc771e9",
+      "reference_timelines": 1,
+      "rows": 43,
+      "sentences": 114,
+      "date_precision": {
+        "day": 43
+      },
+      "multi_sentence_rows": 36,
+      "rows_with_url_in_text": 0,
+      "duplicate_dates": [],
+      "order_inversions": [],
+      "shape_errors": [],
+      "date_text_flags": []
+    }
+  ],
+  "date_metric_counterexample": {
+    "topic": "Apple_2024.6.5",
+    "reference_date_count": 7,
+    "changed_date": {
+      "original": "2024-06-05",
+      "primary_source_supported": "2023-06-05"
+    },
+    "reference_clone": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "one_date_repair": {
+      "precision": 0.8571428571428571,
+      "recall": 0.8571428571428571,
+      "f1": 0.8571428571428571
+    },
+    "interpretation": "Constructed metric diagnostic; not a comparison of model outputs."
+  }
+}

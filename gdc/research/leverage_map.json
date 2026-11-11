@@ -1,0 +1,31 @@
+{
+  "note": "Curated research links, not Graphify output. Relations are observations or hypotheses, not automated causal conclusions.",
+  "nodes": {
+    "evidence_visibility":["finding","Some displayed source cards had no body visible to the model.","ALITHIA_RESEARCH_READINESS.md"],
+    "cutoff_leak":["finding","Related news on an old release exposed later findings.","CHRONOLOGY_REPLAY.md"],
+    "handoff_drift":["finding","An August change sentence added a repairs claim not supported by the rows.","STARLINER_SHIFT_TRIAL.md"],
+    "retrieval_miss":["finding","On two releases the old sentence retrieved backstory rather than the chosen replacement evidence.","DESK_PATCH_FINDINGS.md"],
+    "coverage_proxy":["finding","More extracted facts sometimes coincided with fewer judge-labelled important items.","COVERAGE_PROXY_PROTOCOL.md"],
+    "competitor":["prior_art","Cited timelines and human contradiction review already exist.","COMPETITOR_IMPLEMENTATION_NOTES.md"],
+    "checklist":["negative_result","The generic verifier tied the role checklist on 12 development fixtures.","VERIFIER_PILOT_PROTOCOL.md"],
+    "evidence_contract":["hypothesis","Audit what was available, presented, and actually supports the proposed sentence.","desk_patch.py"],
+    "change_gate":["hypothesis","Route only state changes that matter to a specific standing question.","LEVERAGE_DECISION.md"],
+    "civic_record":["source","NYC Council outdoor dining measure: committee approval, council approval and signature are separate actions.","https://legistar.council.nyc.gov/LegislationDetail.aspx?ID=5400747&GUID=9E913589-73E9-4618-B773-B0A6B45BAD92"],
+    "sf_transfer":["finding","On SF file 210284 a first reading passed before final passage; the mayoral approval row had no Pass result.","SF_TRANSFER.md"],
+    "tide":["prior_art","TIDE evaluates version resolution in official documents.","https://arxiv.org/abs/2608.08512"],
+    "live_search":["prior_art","LiveSearchBench builds retrieval tasks from graph deltas.","https://arxiv.org/abs/2511.01409"],
+    "curate":["competitor","Local policy topic monitoring and email alerts already sold.","https://www.curatesolutions.com/local-governments"],
+    "desk_value":["business_hypothesis","A repeat buyer may pay to reduce source checking and irrelevant interruptions.","REVIEW_EFFORT_STUDY.md"],
+    "replay_asset":["research_hypothesis","Reusable dated assertion-update pairs with plausible no-change events.","LEVERAGE_DECISION.md"]
+  },
+  "edges": [
+    ["evidence_visibility","motivates","evidence_contract"],["cutoff_leak","motivates","evidence_contract"],
+    ["handoff_drift","motivates","evidence_contract"],["retrieval_miss","motivates","change_gate"],
+    ["coverage_proxy","warns_against_volume_metrics_for","change_gate"],["checklist","weakens_checklist_only_case_for","evidence_contract"],
+    ["evidence_contract","constrains","change_gate"],["civic_record","provides_test_inputs_for","change_gate"],
+    ["change_gate","might_reduce_interruptions_for","desk_value"],["competitor","limits_novelty_of","desk_value"],
+    ["curate","sets_commercial_baseline_for","desk_value"],["civic_record","can_seed","replay_asset"],
+    ["tide","sets_version_baseline_for","replay_asset"],["live_search","sets_delta_baseline_for","replay_asset"],
+    ["replay_asset","could_test","change_gate"],["sf_transfer","challenges_pass_flag_shortcut_for","change_gate"]
+  ]
+}

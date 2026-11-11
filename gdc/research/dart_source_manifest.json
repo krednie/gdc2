@@ -1,0 +1,49 @@
+{
+  "case_id": "dart_development_01",
+  "created_date": "2026-11-09",
+  "status": "development_only_not_held_out",
+  "task": "Explain DART's launch, impact, and the evidence for a changed orbit through 2024-03-19, distinguishing occurrence from reporting and later interpretation.",
+  "historical_version_status": "Current pages only; historical availability of exact text has not been established.",
+  "sources": [
+    {
+      "id": "D01",
+      "url": "https://www.nasa.gov/news-release/nasa-tv-to-air-dart-prelaunch-activities-launch/",
+      "page_date_observed": "2021-11-16",
+      "role": "prelaunch_advisory_with_editor_update",
+      "markers": ["updated on Nov. 22", "scheduled to launch no earlier than"],
+      "check": "The launch schedule in the currently served advisory was edited after its original publication date. Do not assign the revised schedule to November 16 without an archived version."
+    },
+    {
+      "id": "D02",
+      "url": "https://www.nasa.gov/news-release/nasa-spacex-launch-dart-first-test-mission-to-defend-planet-earth/",
+      "page_date_observed": "2021-11-24",
+      "role": "launch_report",
+      "markers": ["launched Wednesday at 1:21", "2:17"],
+      "check": "The launch report establishes an accomplished launch; later impact and follow-up activities remain prospective within this report."
+    },
+    {
+      "id": "D03",
+      "url": "https://www.nasa.gov/news-release/nasas-dart-mission-hits-asteroid-in-first-ever-planetary-defense-test/",
+      "page_date_observed": "2022-09-27",
+      "role": "impact_report",
+      "markers": ["7:14 p.m. EDT", "weeks"],
+      "check": "The visible page date is not the impact date. Separate collision success from later quantification of orbital change."
+    },
+    {
+      "id": "D04",
+      "url": "https://www.nasa.gov/news-release/nasa-confirms-dart-mission-impact-changed-asteroids-motion-in-space/",
+      "page_date_observed": "2022-10-11",
+      "role": "initial_orbit_measurement_report",
+      "markers": ["32 minutes", "plus or minus 2 minutes"],
+      "check": "Keep the uncertainty attached to the initial orbital-period result; this report does not date the collision to October 11."
+    },
+    {
+      "id": "D05",
+      "url": "https://www.nasa.gov/missions/dart/nasa-study-asteroids-orbit-shape-changed-after-dart-impact/",
+      "page_date_observed": "2024-03-19",
+      "role": "later_model_based_reconstruction",
+      "markers": ["32 minutes and 42 seconds", "33 minutes and 15 seconds", "Over the following weeks"],
+      "check": "The later study models an evolving orbit after impact. Preserve physical evolution separately from the date researchers reported their reconstruction."
+    }
+  ]
+}
